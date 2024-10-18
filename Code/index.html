@@ -3,115 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
+  <title>Web Control Robot 4 Dof</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    html, body {
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-    
-    body {
-      background-color: #1c1c1c;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .login-container {
-      background-color: #2b2b2b;
-      padding: 30px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      max-width: 400px;
-      width: 100%;
-    }
-    .logo {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .logo img {
-      max-width: 100px;
-    }
-    h1 {
-      text-align: center;
-      color: #fff;
-      margin-bottom: 20px;
-    }
-    input {
-      background-color: #3b3b3b;
-      color: #fff;
-      border: none;
-    }
-    .btn-primary {
-      background-color: #ffd300;
-      border-color: #ffd300;
-      color: #000;
-      font-weight: bold;
-    }
-    .btn-primary:hover {
-      background-color: #e6ba00;
-      border-color: #e6ba00;
-    }
-    a {
-      color: #ffd300;
-    }
-    .PageIntro {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%; /* Ensure it covers full height */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    header {
-      background-color: #fff;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    .header img {
-      max-width: 150px;
-    }
-    .content {
-      max-width: 800px;
-      width: 100%;
-      margin: 20px auto;
-      padding: 10px;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    .student-info {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 20px;
-      margin-left: 50px;
-      margin-right: 30px;
-    }
-    .start-button {
-      display: block;
-      background-color: #00b300;
-      color: #fff;
-      text-align: center;
-      text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-size: 16px;
-      margin-top: 20px;
-    }
-    .start-button {
-      background-color: #009900;
-      font-size: 18px;
-    }
-    p{
-      font-size: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <div class="login-container" id="PageLogin" style="display:block;">
@@ -156,12 +50,11 @@
   <div id="PageIntroduction" class="PageIntro" style="display:none;">
     <header>
       <img src="img/logo_hcmute_feee.png" alt="HCMUTE Logo">
-      <!-- <div class="h1">Robot Design</div> -->
     </header>
     <div class="content">
       <Center>
-        <h2><b>THIẾT KẾ MÔ HÌNH VÀ ĐIỀU KHIỂN CÁNH TAY ROBOT 4 BẬC TỰ DO</b></h2>
-        <h3><b>Môn: Thực tập kỹ thuật Robot</b></h3>
+        <h3><b>THIẾT KẾ MÔ HÌNH VÀ ĐIỀU KHIỂN CÁNH TAY ROBOT 4 BẬC TỰ DO</b></h3>
+        <h4><b>Môn: Thực tập kỹ thuật Robot</b></h4>
       </Center>
       <div class="student-info">
         <div>
@@ -178,9 +71,136 @@
       <a class="start-button" id="buttonstart"><b>START</b></a>
     </div>
   </div>
+  <div id="PageController" style="display: none;">
+    <header>
+      <img src="img/logo_hcmute_feee.png" alt="HCMUTE Logo">
+    </header>
+    <div class="container">
+      <div class="kinematic-container">
+          <div class="forward-kinematic">
+              <Center><h2><b>FORWARD KINEMATIC</b></h2></Center>
+              <div class="joint-angles">
+                  <div class="joint-angle-item">
+                      <label for="theta1">Theta 1:</label>
+                      <input type="text" id="theta1FK" value="0" oninput="updateJointAngle('theta1FK')">
+                      <input type="range" id="theta1FK-slider" min="-90" max="90" value="0" class="slider" oninput="updateJointAngle('theta1FK')">
+                      <span id="theta1FK-value">0</span>
+                  </div>
+                  <div class="joint-angle-item">
+                      <label for="theta2">Theta 2:</label>
+                      <input type="text" id="theta2FK" value="0" oninput="updateJointAngle('theta2FK')">
+                      <input type="range" id="theta2FK-slider" min="-90" max="90" value="0" class="slider" oninput="updateJointAngle('theta2FK')">
+                      <span id="theta2FK-value">0</span>
+                  </div>
+                  <div class="joint-angle-item">
+                      <label for="theta3">Theta 3:</label>
+                      <input type="text" id="theta3FK" value="0" oninput="updateJointAngle('theta3FK')">
+                      <input type="range" id="theta3FK-slider" min="-90" max="90" value="0" class="slider" oninput="updateJointAngle('theta3FK')">
+                      <span id="theta3FK-value">0</span>
+                  </div>
+                  <div class="joint-angle-item">
+                      <label for="theta4">Theta 4:</label>
+                      <input type="text" id="theta4FK" value="0" oninput="updateJointAngle('theta4FK')">
+                      <input type="range" id="theta4FK-slider" min="-90" max="90" value="0" class="slider" oninput="updateJointAngle('theta4FK')">
+                      <span id="theta4FK-value">0</span>
+                  </div>
+              </div>
+              <div class="position">
+                  <label for="px">Px:</label>
+                  <label for="py">Py:</label>
+                  <label for="pz">Pz:</label>
+                  <label for="theta">Theta:</label>
+              </div>
+              <div class="position">
+                  <input type="number" id="px" value="0" readonly>
+                  <input type="number" id="py" value="0" readonly>
+                  <input type="number" id="pz" value="0" readonly>
+                  <input type="number" id="theta" value="0" readonly>
+              </div>
+              <br/>
+              <button id="calculate-forward" onclick="calculateForwardKinematics()">Calculate Forward Kinematic</button>
+          </div>
+          <div class="forward-kinematic">
+            <Center><h2><b>INVERSE KINEMATIC</b></h2></Center>
+            <div class="joint-angles">
+                <div class="joint-angle-item">
+                    <label for="pxIK">Px:</label>
+                    <input type="text" id="pxIK" value="0" oninput="updatePosition('pxIK')">
+                    <input type="range" id="pxIK-slider" min="-400" max="400" value="0" class="slider" oninput="updatePosition('pxIK')">
+                    <span id="pxIK-value">0</span>
+                </div>
+                <div class="joint-angle-item">
+                    <label for="pyIK">Py:</label>
+                    <input type="text" id="pyIK" value="0" oninput="updatePosition('pyIK')">
+                    <input type="range" id="pyIK-slider" min="-400" max="400" value="0" class="slider" oninput="updatePosition('pyIK')">
+                    <span id="pyIK-value">0</span>
+                </div>
+                <div class="joint-angle-item">
+                    <label for="pzIK">Pz:</label>
+                    <input type="text" id="pzIK" value="0" oninput="updatePosition('pzIK')">
+                    <input type="range" id="pzIK-slider" min="-400" max="400" value="0" class="slider" oninput="updatePosition('pzIK')">
+                    <span id="pzIK-value">0</span>
+                </div>
+                <div class="joint-angle-item">
+                  <label for="thetaIK">Theta:</label>
+                  <input type="text" id="thetaIK" value="0" oninput="updatePosition('thetaIK')">
+                  <input type="range" id="thetaIK-slider" min="-90" max="90" value="0" class="slider" oninput="updatePosition('thetaIK')">
+                  <span id="thetaIK-value">0</span>
+              </div>
+            </div>
+            <div class="position">
+                <label for="theta1">Theta 1:</label>
+                <label for="theta2">Theta 2:</label>
+                <label for="theta3">Theta 3:</label>
+                <label for="theta4">Theta 4:</label>
+            </div>
+            <div class="position">
+              <input type="number" id="theta1IK" value="0" readonly>
+              <input type="number" id="theta2IK" value="0" readonly>
+              <input type="number" id="theta3IK" value="0" readonly>
+              <input type="number" id="theta4IK" value="0" readonly>
+          </div>
+          <br/>
+            <button id="calculate-forward" onclick="calculateInverseKinematics()">Calculate Inverse Kinematic</button>
+          </div> 
+        </div>
+    </div>
+
+    <div class="forward-kinematic">
+      <Center><h2><b>Current Position</b></h2></Center>
+      <h3><b>Angle:</b></h3>
+      <div class="position">
+        <label for="theta1">Theta 1:</label>
+        <label for="theta2">Theta 2:</label>
+        <label for="theta3">Theta 3:</label>
+        <label for="theta4">Theta 4:</label>
+      </div>
+      <div class="position">
+        <input type="number" id="theta1" value="0" readonly>
+        <input type="number" id="theta2" value="0" readonly>
+        <input type="number" id="theta3" value="0" readonly>
+        <input type="number" id="theta4" value="0" readonly>
+      </div>
+      <h3><b>Position:</b></h3>
+      <div class="position">
+        <label for="px">Px:</label>
+        <label for="py">Py:</label>
+        <label for="pz">Pz:</label>
+        <label for="theta">Theta:</label>
+      </div>
+      <div class="position">
+        <input type="number" id="px" value="0" readonly>
+        <input type="number" id="py" value="0" readonly>
+        <input type="number" id="pz" value="0" readonly>
+        <input type="number" id="theta" value="0" readonly>
+      </div>
+    </div>
+  </div>
 </body>
 <script src="./lib.js"></script>
 <script src="./main.js"></script>
 <script src="./Login.js"></script>
+<script src="./ForwardKinematic.js"></script>
+<script src="./InverseKinematic.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </html>

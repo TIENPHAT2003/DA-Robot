@@ -24,6 +24,11 @@ function onLoad(event) {
     initButton();
 }
 function initButton() {
-    
+    document.getElementById("buttonstart").addEventListener("click", openPageControlller);
+}
+function openPageControlller(){
+    document.getElementById("PageController").style.display = "block";
+    document.getElementById("PageIntroduction").style.display = "none";
+    document.getElementById("PageLogin").style.display = "none";
 }
   
