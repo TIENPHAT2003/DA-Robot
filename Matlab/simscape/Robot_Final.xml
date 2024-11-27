@@ -1,0 +1,3548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/03/24||20:35:16" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Robot_Final" uid="Robot_Final" version="211">
+<AssemblyFile name="Robot_Final.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Link3_Final-1" uid="Link3_Final-1" entityUid="Link3_Final" rigid="true">
+<Transform>
+<Rotation>-0.96289577382918201 -0.054304048033334947 0.26435354945431311 0.26393415128946812 0.014884988821027198 0.9644258400161756 -0.056307126769254118 0.99841349523881728 -9.3449191527998584e-16</Rotation>
+<Translation>0.399425286546992 0.27275062799455146 0.63509475202439303</Translation>
+</Transform>
+<Instance name="Tru dong M3 - 30mm-4" uid="Tru dong M3 - 30mm-4" entityUid="Tru dong M3 - 30mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397163 0.014304965080365717 0.057076445013224841</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 30mm-1" uid="Tru dong M3 - 30mm-1" entityUid="Tru dong M3 - 30mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.11853339788939721 0.061804965080365815 0.057076445013224952</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 30mm-3" uid="Tru dong M3 - 30mm-3" entityUid="Tru dong M3 - 30mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.046033397889397198 0.036804965080365681 0.057076445013224952</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng ch?n b?c d?n phi 47 2mm link3-1" uid="vòng ch?n b?c d?n phi 47 2mm link3-1" entityUid="vòng ch?n b?c d?n phi 47 2mm link3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.14553339788939723 0.036804965080365903 0.092076445013224761</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n nh? 2mm-1" uid="vòng d?m b?c d?n nh? 2mm-1" entityUid="vòng d?m b?c d?n nh? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.068533397889397163 0.036804965080364238 0.040076445013224715</Translation>
+</Transform>
+</Instance>
+<Instance name="JGA25-370 DC 12V60RPM-1" uid="JGA25-370 DC 12V60RPM-1" entityUid="JGA25-370 DC 12V60RPM*:*Default">
+<Transform>
+<Rotation>-3.4498684953312506e-15 0 1 0 1.0000000000000002 0 -0.99999999999999989 0 -3.5000951240619879e-15</Rotation>
+<Translation>0.068533397889397718 0.036804965080365792 0.13535064757759591</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3_p1-1" uid="Link3_p1-1" grounded="true" entityUid="Link3_p1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.1070333978893972 0.036804965080365903 0.087076445013224868</Translation>
+</Transform>
+</Instance>
+<Instance name="Link3_p2-1" uid="Link3_p2-1" entityUid="Link3_p2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.1070333978893972 0.036804965080364238 0.052076445013224726</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 30mm-2" uid="Tru dong M3 - 30mm-2" entityUid="Tru dong M3 - 30mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397218 0.059304965080365646 0.057076445013224952</Translation>
+</Transform>
+</Instance>
+<Instance name="GT2_16 Teeth Pulley-1" uid="GT2_16 Teeth Pulley-1" entityUid="GT2_16 Teeth Pulley*:*Varsayilan">
+<Transform>
+<Rotation>-0.99115976158410934 -0.13267376159788088 -1.2806501441505647e-16 -0.13267376159788086 0.99115976158410946 0 1.2714361572682742e-16 0 -0.99999999999999989</Rotation>
+<Translation>0.068533397889397163 0.036804965080365903 0.080076445013224806</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rigid Flange Coupling  v1.step-1" uid="8mm Rigid Flange Coupling  v1.step-1" entityUid="8mm Rigid Flange Coupling  v1.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397218 0.036804965080365681 0.057076445013224952</Translation>
+</Transform>
+<Instance name="92605A009.step-1" uid="92605A009.step-1" grounded="true" entityUid="92605A009.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0080000000000000071 0.0060085152060410651</Translation>
+</Transform>
+</Instance>
+<Instance name="92605A009.step-2" uid="92605A009.step-2" grounded="true" entityUid="92605A009.step*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999989 0 -0.99999999999999989 0 1 0 0</Rotation>
+<Translation>0.0060085152060410096 0.0080000000000000626 0</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rigid Flange Coupling v2.step-1" uid="8mm Rigid Flange Coupling v2.step-1" grounded="true" entityUid="8mm Rigid Flange Coupling v2.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="vòng ch?n b?c d?n phi 47 5mm link3-1" uid="vòng ch?n b?c d?n phi 47 5mm link3-1" entityUid="vòng ch?n b?c d?n phi 47 5mm link3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.14553339788939715 0.036804965080365903 0.094076445013224763</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing 6807-2RS (35E47E7)-1" uid="Bearing 6807-2RS (35E47E7)-1" entityUid="Bearing 6807-2RS (35E47E7)*:*?? ?????????">
+<Transform>
+<Rotation>-3.4498684953312506e-15 0 1 0 1.0000000000000002 0 -0.99999999999999989 0 -3.5000951240619879e-15</Rotation>
+<Translation>0.14553339788939748 0.036804965080366014 0.096076445013224321</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 5mm-1" uid="vòng d?m b?c d?n phi 39 5mm-1" entityUid="vòng d?m b?c d?n phi 39 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.068533397889397218 0.036804965080364238 0.047076445013224721</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 30mm-5" uid="Tru dong M3 - 30mm-5" entityUid="Tru dong M3 - 30mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.091033397889397183 0.036804965080365681 0.057076445013224952</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 30mm-7" uid="Tru dong M3 - 30mm-7" entityUid="Tru dong M3 - 30mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.11853339788939721 0.036804965080365681 0.057076445013224897</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 5mm-2" uid="vòng d?m b?c d?n phi 39 5mm-2" entityUid="vòng d?m b?c d?n phi 39 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.068533397889397218 0.036804965080364238 0.042076445013224717</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 30mm-6" uid="Tru dong M3 - 30mm-6" entityUid="Tru dong M3 - 30mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.11853339788939715 0.011804965080365659 0.057076445013224841</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing_KFL08-1" uid="Bearing_KFL08-1" entityUid="Bearing_KFL08*:*Default">
+<Transform>
+<Rotation>3.5110803153770552e-15 3.515153546943667e-15 1 -1 -6.98025537666224e-15 3.5110803153770796e-15 6.9802553766622526e-15 -1 3.5151535469436425e-15</Rotation>
+<Translation>0.099033397889396857 0.038268222953676601 0.046013956992074834</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n nh? 5mm-1" uid="vòng d?m b?c d?n nh? 5mm-1" entityUid="vòng d?m b?c d?n nh? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.068533397889397163 0.036804965080364238 0.035076445013224711</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 5mm-3" uid="vòng d?m b?c d?n phi 39 5mm-3" entityUid="vòng d?m b?c d?n phi 39 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.068533397889397218 0.036804965080364238 0.030076445013224706</Translation>
+</Transform>
+</Instance>
+<Instance name="tr?c link 3-1" uid="tr?c link 3-1" entityUid="tr?c link 3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.068533397889397218 0.036804965080365792 -0.022923554986775174</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng ch?n b?c d?n phi 45 5mm link3-1" uid="vòng ch?n b?c d?n phi 45 5mm link3-1" entityUid="vòng ch?n b?c d?n phi 45 5mm link3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.1455333978893972 0.036804965080366014 0.099076445013224823</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-1" uid="M3 - 10mm Luc giac-1" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>-3.4763858458575191e-15 0 0.99999999999999989 -1 1.0474532238616368e-14 -3.4763858458575183e-15 -1.0474532238616369e-14 -0.99999999999999989 0</Rotation>
+<Translation>0.046033397889397198 0.036804965080365015 0.094076445013225207</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-2" uid="M3 - 10mm Luc giac-2" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>-3.4763858458575191e-15 0 0.99999999999999989 -1 1.0474532238616368e-14 -3.4763858458575183e-15 -1.0474532238616369e-14 -0.99999999999999989 0</Rotation>
+<Translation>0.068533397889397163 0.01430496508036494 0.094076445013224985</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-3" uid="M3 - 10mm Luc giac-3" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>-3.4763858458575191e-15 0 0.99999999999999989 -1 1.0474532238616368e-14 -3.4763858458575183e-15 -1.0474532238616369e-14 -0.99999999999999989 0</Rotation>
+<Translation>0.11853339788939721 0.061804965080365037 0.094076445013225429</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-4" uid="M3 - 10mm Luc giac-4" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>-3.4763858458575191e-15 0 0.99999999999999989 -1 1.0474532238616368e-14 -3.4763858458575183e-15 -1.0474532238616369e-14 -0.99999999999999989 0</Rotation>
+<Translation>0.068533397889397163 0.059304965080364869 0.094076445013225374</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-2" uid="M3 - 20mm Luc giac-2" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0472188001970545e-14 0.99999999999999989 0 -0.99999999999999989 1.0472188001970545e-14</Rotation>
+<Translation>0.11853339788939721 0.036804965080364793 0.10607644501322516</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-11" uid="M3 - 10mm Luc giac-11" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.046033397889397198 0.036804965080365681 0.050076445013224946</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - 25mm ?c l?c giác dù inox-2" uid="M5 - 25mm ?c l?c giác dù inox-2" entityUid="M5 - 25mm ?c l?c giác dù inox*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0472188001970545e-14 0.99999999999999989 0 -0.99999999999999989 1.0472188001970545e-14</Rotation>
+<Translation>0.12728339788939716 0.03680496508036557 0.059676445013225221</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-6" uid="M3 - 10mm Luc giac-6" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>-3.4763858458575191e-15 0 0.99999999999999989 -1 1.0474532238616368e-14 -3.4763858458575183e-15 -1.0474532238616369e-14 -0.99999999999999989 0</Rotation>
+<Translation>0.091033397889397183 0.036804965080364793 0.094076445013225207</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-8" uid="M3 - 10mm Luc giac-8" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.091033397889397238 0.036804965080365681 0.050076445013224946</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-7" uid="M3 - 10mm Luc giac-7" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.11853339788939718 0.036804965080365792 0.050076445013224946</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-10" uid="M3 - 10mm Luc giac-10" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397163 0.059304965080365757 0.050076445013225002</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-12" uid="M3 - 10mm Luc giac-12" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.11853339788939721 0.011804965080365659 0.050076445013224835</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-13" uid="M3 - 10mm Luc giac-13" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.11853339788939718 0.061804965080365815 0.050076445013224946</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-1" uid="M3 NUT-1" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.14553339788939715 0.063804965080365816 0.084676445013224966</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-1" uid="M4 - 40mm-1" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.080533397889397063 0.036804965080365792 0.027876445013224949</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-3" uid="M4 - 40mm-3" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.056533397889397152 0.036804965080365903 0.027876445013224949</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-4" uid="M4 - 40mm-4" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397163 0.048804965080365914 0.027876445013225004</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-3" uid="M3 - 20mm Luc giac-3" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0472188001970545e-14 0.99999999999999989 0 -0.99999999999999989 1.0472188001970545e-14</Rotation>
+<Translation>0.1455333978893972 0.063804965080364817 0.10607644501322544</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-4" uid="M3 - 20mm Luc giac-4" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0472188001970545e-14 0.99999999999999989 0 -0.99999999999999989 1.0472188001970545e-14</Rotation>
+<Translation>0.17253339788939714 0.036804965080364904 0.10607644501322522</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-5" uid="M3 - 10mm Luc giac-5" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>-3.4763858458575191e-15 0 0.99999999999999989 -1 1.0474532238616368e-14 -3.4763858458575183e-15 -1.0474532238616369e-14 -0.99999999999999989 0</Rotation>
+<Translation>0.11853339788939721 0.011804965080364882 0.094076445013224874</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-2" uid="M3 NUT-2" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.14553339788939712 0.0098049650803656574 0.084676445013224799</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-2" uid="M4 - 40mm-2" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397163 0.024804965080365893 0.027876445013224893</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-9" uid="M3 - 10mm Luc giac-9" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397163 0.014304965080365828 0.05007644501322478</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - 25mm ?c l?c giác dù inox-1" uid="M5 - 25mm ?c l?c giác dù inox-1" entityUid="M5 - 25mm ?c l?c giác dù inox*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0472188001970545e-14 0.99999999999999989 0 -0.99999999999999989 1.0472188001970545e-14</Rotation>
+<Translation>0.16378339788939708 0.036804965080365681 0.059676445013225221</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-1" uid="M5 NUT-1" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.16378339788939716 0.036804965080365903 0.045576445013224942</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-2" uid="M5 NUT-2" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.12728339788939719 0.036804965080365792 0.045576445013224942</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-3" uid="M4 NUT-3" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397163 0.048804965080365803 0.060076445013225011</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-4" uid="M4 NUT-4" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.056533397889397152 0.036804965080365792 0.060076445013224955</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-5" uid="M3 - 20mm Luc giac-5" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0472188001970545e-14 0.99999999999999989 0 -0.99999999999999989 1.0472188001970545e-14</Rotation>
+<Translation>0.14553339788939718 0.0098049650803646582 0.10607644501322488</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-1" uid="M4 NUT-1" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397163 0.024804965080365671 0.060076445013224844</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-14" uid="M3 - 10mm Luc giac-14" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397163 0.028304965080365729 0.085076445013224922</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-2" uid="M4 NUT-2" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.080533397889397174 0.036804965080365681 0.060076445013224955</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-15" uid="M3 - 10mm Luc giac-15" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.068533397889397107 0.045304965080365633 0.085076445013224922</Translation>
+</Transform>
+</Instance>
+<Instance name="Poulie GT2 60 dents-1" uid="Poulie GT2 60 dents-1" entityUid="Poulie GT2 60 dents*:*Défaut">
+<Transform>
+<Rotation>-0.0057692183474654787 0.99998335792135018 0 0.99998335792135029 0.0057692183474654778 0 0 0 -1</Rotation>
+<Translation>0.1455333978893972 0.036804965080365903 0.072015888858065424</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-3" uid="M3 NUT-3" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.487078626592618e-15 -0.99999999999999989 0 0.99999999999999989 -3.487078626592618e-15</Rotation>
+<Translation>0.17253339788939712 0.036804965080365903 0.084676445013224966</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="De robot-1" uid="De robot-1" grounded="true" entityUid="De robot" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.013100437254989106 0.59960937691903826 0.1662961379724846</Translation>
+</Transform>
+<Instance name="vòng d?m tr?c d? 5mm-35" uid="vòng d?m tr?c d? 5mm-35" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.30281367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-27" uid="vòng d?m tr?c d? 5mm-27" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907964 -0.34252106154160805 0.28781367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-26" uid="vòng d?m tr?c d? 5mm-26" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907953 -0.34252106154160811 0.29781367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-13" uid="vòng d?m tr?c d? 5mm-13" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.29781367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-31" uid="vòng d?m tr?c d? 5mm-31" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907964 -0.34252106154160805 0.27281367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-32" uid="vòng d?m tr?c d? 5mm-32" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.27781367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="GT2_16 Teeth Pulley-1" uid="GT2_16 Teeth Pulley-1" entityUid="GT2_16 Teeth Pulley*:*Varsayilan">
+<Transform>
+<Rotation>-0.97661212265540764 -0.21500874838596476 0 -0.21500874838596473 0.97661212265540764 0 0 0 -1</Rotation>
+<Translation>0.72799352604059175 -0.32543462872196949 0.30011367581230097</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-14" uid="vòng d?m tr?c d? 5mm-14" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.29281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-28" uid="vòng d?m tr?c d? 5mm-28" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907953 -0.34252106154160811 0.30281367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-30" uid="vòng d?m tr?c d? 5mm-30" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907953 -0.34252106154160816 0.29281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-15" uid="vòng d?m tr?c d? 5mm-15" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.27281367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-33" uid="vòng d?m tr?c d? 5mm-33" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.29781367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-34" uid="vòng d?m tr?c d? 5mm-34" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.28781367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-29" uid="vòng d?m tr?c d? 5mm-29" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907964 -0.34252106154160805 0.28281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-12" uid="vòng d?m tr?c d? 5mm-12" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.28781367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-11" uid="vòng d?m tr?c d? 5mm-11" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.30281367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="JGB37-520-12v-319RPM-1" uid="JGB37-520-12v-319RPM-1" entityUid="JGB37-520-12v-319RPM*:*?? ?????????">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.73589352604059177 -0.32543462872196949 0.31281367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-17" uid="vòng d?m tr?c d? 5mm-17" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.28281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-16" uid="vòng d?m tr?c d? 5mm-16" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.27781367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-25" uid="vòng d?m tr?c d? 5mm-25" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907964 -0.34252106154160805 0.27781367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-40" uid="vòng d?m tr?c d? 5mm-40" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.29781367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-51" uid="vòng d?m tr?c d? 5mm-51" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.29281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-49" uid="vòng d?m tr?c d? 5mm-49" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.30281367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-55" uid="vòng d?m tr?c d? 5mm-55" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367395 0.28781367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-56" uid="vòng d?m tr?c d? 5mm-56" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367395 0.30281367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-57" uid="vòng d?m tr?c d? 5mm-57" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367395 0.28281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-38" uid="vòng d?m tr?c d? 5mm-38" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.27281367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-44" uid="vòng d?m tr?c d? 5mm-44" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.29281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-58" uid="vòng d?m tr?c d? 5mm-58" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367395 0.29281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-59" uid="vòng d?m tr?c d? 5mm-59" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367395 0.27281367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-45" uid="vòng d?m tr?c d? 5mm-45" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.27281367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-48" uid="vòng d?m tr?c d? 5mm-48" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.28781367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-36" uid="vòng d?m tr?c d? 5mm-36" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.28281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-43" uid="vòng d?m tr?c d? 5mm-43" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.28281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-42" uid="vòng d?m tr?c d? 5mm-42" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.30281367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-46" uid="vòng d?m tr?c d? 5mm-46" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.27781367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-54" uid="vòng d?m tr?c d? 5mm-54" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367395 0.29781367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-37" uid="vòng d?m tr?c d? 5mm-37" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.29281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-39" uid="vòng d?m tr?c d? 5mm-39" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.27781367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-41" uid="vòng d?m tr?c d? 5mm-41" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.28781367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-47" uid="vòng d?m tr?c d? 5mm-47" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.29781367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-52" uid="vòng d?m tr?c d? 5mm-52" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.27281367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-50" uid="vòng d?m tr?c d? 5mm-50" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.28281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-53" uid="vòng d?m tr?c d? 5mm-53" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367395 0.27781367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-2" uid="M4 NUT-2" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.57763666013539294 -0.26235481519049142 0.2598136758123008</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-79" uid="vòng d?m tr?c d? 5mm-79" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.31281367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-80" uid="vòng d?m tr?c d? 5mm-80" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.31281367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-64" uid="vòng d?m tr?c d? 5mm-64" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.28281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 15mm Luc giac-6" uid="M4 - 15mm Luc giac-6" entityUid="M4 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.57763666013539294 -0.26235481519049142 0.27481367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="khung b?c d?n phi47 5mm-1" uid="khung b?c d?n phi47 5mm-1" entityUid="khung b?c d?n phi47 5mm*:*Default">
+<Transform>
+<Rotation>0.95782195751166832 0.2873623108699464 0 -0.2873623108699464 0.95782195751166832 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.53978100156216013 -0.2945952069294262 0.31281367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-60" uid="vòng d?m tr?c d? 5mm-60" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.27781367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-67" uid="vòng d?m tr?c d? 5mm-67" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.31281367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 2mm-16" uid="vòng d?m tr?c d? 2mm-16" entityUid="vòng d?m tr?c d? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907953 -0.34252106154160811 0.31781367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-61" uid="vòng d?m tr?c d? 5mm-61" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.29781367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 15mm Luc giac-5" uid="M4 - 15mm Luc giac-5" entityUid="M4 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>0.99585415174249869 0 0.090964325189761316 -0.090964325189761316 0 0.99585415174249869 0 -1 0</Rotation>
+<Translation>0.5672861546073259 -0.29787758303469886 0.27481367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-63" uid="vòng d?m tr?c d? 5mm-63" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.30281367581230095</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-62" uid="vòng d?m tr?c d? 5mm-62" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.28781367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-66" uid="vòng d?m tr?c d? 5mm-66" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.27281367581230093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 2mm-17" uid="vòng d?m tr?c d? 2mm-17" entityUid="vòng d?m tr?c d? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367389 0.31781367581230097</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-65" uid="vòng d?m tr?c d? 5mm-65" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.29281367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-76" uid="vòng d?m tr?c d? 5mm-76" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367389 0.31281367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 2mm-18" uid="vòng d?m tr?c d? 2mm-18" entityUid="vòng d?m tr?c d? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.31781367581230097</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-1" uid="M4 NUT-1" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.56728615460732601 -0.2978775830346988 0.25981367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 2mm-8" uid="vòng d?m tr?c d? 2mm-8" entityUid="vòng d?m tr?c d? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.31781367581230097</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-75" uid="vòng d?m tr?c d? 5mm-75" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907953 -0.34252106154160811 0.31281367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing 6807-2RS (35E47E7)-1" uid="Bearing 6807-2RS (35E47E7)-1" entityUid="Bearing 6807-2RS (35E47E7)*:*?? ?????????">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.57214733709445476 -0.28028692060199645 0.31631367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-77" uid="vòng d?m tr?c d? 5mm-77" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.31281367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 2mm-20" uid="vòng d?m tr?c d? 2mm-20" entityUid="vòng d?m tr?c d? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.31781367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="d? p2-3" uid="d? p2-3" entityUid="d? p2*:*Default">
+<Transform>
+<Rotation>0.96007480660019984 0.27974339265045922 0 -0.27974339265045922 0.96007480660019984 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.53875025366791574 -0.28856872164825764 0.30781367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 2mm-21" uid="vòng d?m tr?c d? 2mm-21" entityUid="vòng d?m tr?c d? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.31781367581230097</Translation>
+</Transform>
+</Instance>
+<Instance name="khung b?c d?n chà 5mm-2" uid="khung b?c d?n chà 5mm-2" entityUid="khung b?c d?n chà 5mm*:*Default">
+<Transform>
+<Rotation>0.96007480660019984 0.27974339265045917 -1.9627559698997195e-16 -0.27974339265045917 0.96007480660019984 0 2.1280513196563165e-16 0 0.99999999999999989</Rotation>
+<Translation>0.54020977200806619 -0.29468118279984895 0.32481367581230092</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-81" uid="vòng d?m tr?c d? 5mm-81" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.31281367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="Screw_DIN_912_M5x70_A2.step-3" uid="Screw_DIN_912_M5x70_A2.step-3" entityUid="Screw_DIN_912_M5x70_A2.step*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367389 0.25481367581230097</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-6" uid="M5 NUT-6" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.25981367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="d? p1-3" uid="d? p1-3" entityUid="d? p1*:*Default">
+<Transform>
+<Rotation>0.96007480660020006 0.27974339265045917 -1.9627559698997185e-16 -0.27974339265045917 0.96007480660020006 0 2.1280513196563153e-16 0 1</Rotation>
+<Translation>0.53875025366791574 -0.28856872164825764 0.31981367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="Screw_DIN_912_M5x70_A2.step-6" uid="Screw_DIN_912_M5x70_A2.step-6" entityUid="Screw_DIN_912_M5x70_A2.step*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.25481367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-7" uid="M5 NUT-7" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.2598136758123008</Translation>
+</Transform>
+</Instance>
+<Instance name="khung b?c d?n phi47 2mm-2" uid="khung b?c d?n phi47 2mm-2" entityUid="khung b?c d?n phi47 2mm*:*Default">
+<Transform>
+<Rotation>0.95782195751166832 0.2873623108699464 0 -0.2873623108699464 0.95782195751166832 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.53978100156216013 -0.2945952069294262 0.31781367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-4" uid="M5 NUT-4" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.2598136758123008</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-1" uid="M4 - 40mm-1" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.61190622338051903 -0.25847145517778408 0.33701367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-2" uid="M4 - 40mm-2" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.53301659136219959 -0.30176094304740608 0.33701367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="khung b?c d?n chà 5mm-1" uid="khung b?c d?n chà 5mm-1" entityUid="khung b?c d?n chà 5mm*:*Default">
+<Transform>
+<Rotation>0.96007480660020006 0.27974339265045922 0 -0.27974339265045922 0.96007480660020006 0 0 0 1</Rotation>
+<Translation>0.54020977200806619 -0.29468118279984895 0.32981367581230092</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 2mm-22" uid="vòng d?m tr?c d? 2mm-22" entityUid="vòng d?m tr?c d? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.31781367581230097</Translation>
+</Transform>
+</Instance>
+<Instance name="Screw_DIN_912_M5x70_A2.step-1" uid="Screw_DIN_912_M5x70_A2.step-1" entityUid="Screw_DIN_912_M5x70_A2.step*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.25481367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="Screw_DIN_912_M5x70_A2.step-4" uid="Screw_DIN_912_M5x70_A2.step-4" entityUid="Screw_DIN_912_M5x70_A2.step*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.25481367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="Screw_DIN_912_M5x70_A2.step-5" uid="Screw_DIN_912_M5x70_A2.step-5" entityUid="Screw_DIN_912_M5x70_A2.step*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.25481367581230097</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-1" uid="M5 NUT-1" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.26006367581230094</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-3" uid="M5 NUT-3" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.25981367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="Screw_DIN_912_M5x70_A2.step-2" uid="Screw_DIN_912_M5x70_A2.step-2" entityUid="Screw_DIN_912_M5x70_A2.step*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.55427808684907953 -0.34252106154160811 0.25481367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-5" uid="M5 NUT-5" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367389 0.2598136758123008</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-2" uid="M5 NUT-2" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.55427808684907953 -0.34252106154160811 0.25981367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="Screw_DIN_912_M5x70_A2.step-7" uid="Screw_DIN_912_M5x70_A2.step-7" entityUid="Screw_DIN_912_M5x70_A2.step*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323777 0 0.92372802134706822 0 1 0</Rotation>
+<Translation>0.51005654494234631 -0.26193287859031528 0.25481367581230091</Translation>
+</Transform>
+</Instance>
+<Instance name="Poulie GT2 60 dents-1" uid="Poulie GT2 60 dents-1" entityUid="Poulie GT2 60 dents*:*Défaut">
+<Transform>
+<Rotation>-0.81682652503741837 -0.57688337469136353 0 0.57688337469136353 -0.81682652503741837 -3.6032047729992813e-16 2.6646718814460732e-16 -2.5293006560539783e-16 1</Rotation>
+<Translation>0.5731940855325659 -0.28061030611628901 0.29701908492497242</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-6" uid="M4 NUT-6" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 0.38304900806323788 -0.38304900806323777 0 -0.92372802134706822 0 -1 0</Rotation>
+<Translation>0.59410615130617039 -0.31956101512175483 0.30806367581230099</Translation>
+</Transform>
+</Instance>
+<Instance name="d? p3-3" uid="d? p3-3" entityUid="d? p3*:*Default">
+<Transform>
+<Rotation>0.96007480660019984 0.27974339265045922 0 -0.27974339265045922 0.96007480660019984 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.53875025366791585 -0.28856872164825764 0.26281367581230081</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-3" uid="M4 NUT-3" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.61190622338051903 -0.25847145517778414 0.30781367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-85" uid="vòng d?m tr?c d? 5mm-85" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.55427808684907964 -0.34252106154160805 0.26781367581230092</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-4" uid="M4 NUT-4" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.55081666343654834 -0.24067138310343539 0.30781367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-84" uid="vòng d?m tr?c d? 5mm-84" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.74629304816911946 -0.39846974007169994 0.26781367581230092</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-4" uid="M4 - 40mm-4" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.55081666343654834 -0.24067138310343533 0.33701367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-86" uid="vòng d?m tr?c d? 5mm-86" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.65028556750909949 -0.37049540080665405 0.26781367581230092</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing_KFL08-1" uid="Bearing_KFL08-1" entityUid="Bearing_KFL08*:*Default">
+<Transform>
+<Rotation>-0.94615215988017676 0 0.32372224260015992 0.32372224260015992 -2.4021365153861866e-16 0.94615215988017676 1.2301779085632032e-16 1 2.1179474602506974e-16</Rotation>
+<Translation>0.55952546584895235 -0.3250800706709675 0.27387616383345093</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-87" uid="vòng d?m tr?c d? 5mm-87" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.78265968921367923 -0.27366001521367395 0.26781367581230092</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-3" uid="M4 - 40mm-3" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.59410615130617028 -0.31956101512175478 0.33701367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-5" uid="M4 NUT-5" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.53301659136219959 -0.30176094304740614 0.30781367581230096</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing_51109_2-1" uid="bearing_51109_2-1" entityUid="bearing_51109_2" rigid="true">
+<Transform>
+<Rotation>-1 3.4914813388431334e-15 -3.4914813388431211e-15 -3.4914813388431334e-15 -3.4914813388431334e-15 1 3.4914813388431211e-15 1 3.4914813388431456e-15</Rotation>
+<Translation>0.57246140737136086 -0.28011619911259555 0.32481367581229781</Translation>
+</Transform>
+<Instance name="bearing_51109_2_03.STEP-1" uid="bearing_51109_2_03.STEP-1" grounded="true" entityUid="bearing_51109_2_03.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing_51109_2_01.STEP-1" uid="bearing_51109_2_01.STEP-1" grounded="true" entityUid="bearing_51109_2_01.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="bearing_51109_2_02.STEP-1" uid="bearing_51109_2_02.STEP-1" grounded="true" entityUid="bearing_51109_2_02.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="tr?c base-2" uid="tr?c base-2" entityUid="tr?c base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5731940855325659 -0.28061030611628901 0.26781367581230092</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-82" uid="vòng d?m tr?c d? 5mm-82" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.5906447278936392 -0.21771133668358206 0.26781367581230092</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-88" uid="vòng d?m tr?c d? 5mm-88" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.68665220855365927 -0.245685675948628 0.26781367581230092</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m tr?c d? 5mm-83" uid="vòng d?m tr?c d? 5mm-83" entityUid="vòng d?m tr?c d? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.51005654494234642 -0.26193287859031528 0.26781367581230092</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link2_Final-3" uid="Link2_Final-3" entityUid="Link2_Final" rigid="true">
+<Transform>
+<Rotation>0.96433751648645372 -0.013052018527662142 0.26435354945430967 -0.26432933956940841 0.0035776181870786302 0.96442584001617659 -0.013533459998793788 -0.99990841853664836 -4.4005081707690705e-16</Rotation>
+<Translation>0.22840902585453232 0.24296025880256533 0.71505602064552243</Translation>
+</Transform>
+<Instance name="Link2_p1-1" uid="Link2_p1-1" grounded="true" entityUid="Link2_p1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.14818940142768139 0.045897842631038799 0.11651580237405379</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-9" uid="Tru dong M3 - 35mm-9" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.23818940142768147 0.045897842631038688 0.10451580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="d?m link2 5mm-2" uid="d?m link2 5mm-2" entityUid="d?m link2 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.14818940142768133 0.045897842631038799 0.11151580237405384</Translation>
+</Transform>
+</Instance>
+<Instance name="JGB37-520-12v-319RPM-2" uid="JGB37-520-12v-319RPM-2" entityUid="JGB37-520-12v-319RPM*:*?? ?????????">
+<Transform>
+<Rotation>1 6.9839967142826254e-15 6.9897286063219892e-15 6.9822619908066486e-15 -1 0 7.0003604652688358e-15 0 -1</Rotation>
+<Translation>0.21708940142768102 0.045897842631038799 0.064515802374055298</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2_p2-1" uid="Link2_p2-1" entityUid="Link2_p2*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.14818940142768139 0.045897842631038799 0.10451580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n nh? 2mm-2" uid="vòng d?m b?c d?n nh? 2mm-2" entityUid="vòng d?m b?c d?n nh? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20918940142768133 0.045897842631038799 0.1335158023740538</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-5" uid="Tru dong M3 - 35mm-5" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.20918940142768139 0.016897842631038662 0.10451580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 5mm-6" uid="vòng d?m b?c d?n phi 39 5mm-6" entityUid="vòng d?m b?c d?n phi 39 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20918940142768139 0.045897842631038799 0.1285158023740538</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 5mm-4" uid="vòng d?m b?c d?n phi 39 5mm-4" entityUid="vòng d?m b?c d?n phi 39 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20918940142768139 0.045897842631038799 0.14051580237405381</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-1" uid="M3 - 15mm Luc giac-1" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323783 0 0.92372802134706833 0 1 0</Rotation>
+<Translation>0.23818940142768141 0.045897842631038688 0.062515802374053742</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-3" uid="Tru dong M3 - 35mm-3" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.087189401427681418 0.016897842631038773 0.10451580237405372</Translation>
+</Transform>
+</Instance>
+<Instance name="d?m link2 2mm-2" uid="d?m link2 2mm-2" entityUid="d?m link2 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.14818940142768144 0.045897842631038799 0.10951580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 47 5mm-1" uid="vòng d?m b?c d?n phi 47 5mm-1" entityUid="vòng d?m b?c d?n phi 47 5mm*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.087189401427681418 0.045897842631038799 0.11151580237405384</Translation>
+</Transform>
+</Instance>
+<Instance name="Vòng d?m phi 70  5mm-1" uid="Vòng d?m phi 70  5mm-1" entityUid="Vòng d?m phi 70  5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20918940142768133 0.04589784263103891 0.11151580237405379</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rigid Flange Coupling  v1.step-1" uid="8mm Rigid Flange Coupling  v1.step-1" entityUid="8mm Rigid Flange Coupling  v1.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.2091894014276815 0.045897842631037133 0.10451580237405428</Translation>
+</Transform>
+<Instance name="92605A009.step-1" uid="92605A009.step-1" grounded="true" entityUid="92605A009.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0079999999999999516 0.0060085152060409541</Translation>
+</Transform>
+</Instance>
+<Instance name="92605A009.step-2" uid="92605A009.step-2" grounded="true" entityUid="92605A009.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 -1 0 1 0 0</Rotation>
+<Translation>0.0060085152060410096 0.0079999999999999516 0</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rigid Flange Coupling v2.step-1" uid="8mm Rigid Flange Coupling v2.step-1" grounded="true" entityUid="8mm Rigid Flange Coupling v2.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="vòng ch?n b?c d?n phi 47 2mm-2" uid="vòng ch?n b?c d?n phi 47 2mm-2" entityUid="vòng ch?n b?c d?n phi 47 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.087189401427681418 0.045897842631038688 0.10951580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n nh? 5mm-1" uid="vòng d?m b?c d?n nh? 5mm-1" entityUid="vòng d?m b?c d?n nh? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20918940142768133 0.045897842631038799 0.13551580237405381</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-2" uid="M3 - 20mm Luc giac-2" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.05818940142768142 0.045897842631037467 0.12351580237405435</Translation>
+</Transform>
+</Instance>
+<Instance name="Link2_p3-1" uid="Link2_p3-1" entityUid="Link2_p3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.14818940142768139 0.045897842631038799 0.064515802374053743</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-4" uid="Tru dong M3 - 35mm-4" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.14818940142768139 0.016897842631038773 0.10451580237405372</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-1" uid="Tru dong M3 - 35mm-1" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.058189401427681448 0.045897842631038688 0.10451580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-7" uid="Tru dong M3 - 35mm-7" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.11618940142768142 0.045897842631038688 0.10451580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-2" uid="Tru dong M3 - 35mm-2" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.08718940142768139 0.074897842631038714 0.10451580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-8" uid="Tru dong M3 - 35mm-8" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.18018940142768142 0.045897842631038688 0.10451580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-6" uid="Tru dong M3 - 35mm-6" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.20918940142768139 0.074897842631038825 0.10451580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-10" uid="Tru dong M3 - 35mm-10" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.14818940142768139 0.074897842631038825 0.10451580237405383</Translation>
+</Transform>
+</Instance>
+<Instance name="GT2_16 Teeth Pulley-1" uid="GT2_16 Teeth Pulley-1" entityUid="GT2_16 Teeth Pulley*:*Varsayilan">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20918940142768133 0.04589784263103891 0.077175802374053748</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing 6807-2RS (35E47E7)-1" uid="Bearing 6807-2RS (35E47E7)-1" entityUid="Bearing 6807-2RS (35E47E7)*:*?? ?????????">
+<Transform>
+<Rotation>0 -0.3727173973796738 0.92794490229243798 0 0.9279449022924382 0.37271739737967385 -1 0 0</Rotation>
+<Translation>0.087189401427681418 0.045897842631038799 0.11301580237405384</Translation>
+</Transform>
+</Instance>
+<Instance name="Vòng d?m phi 70  2mm-1" uid="Vòng d?m phi 70  2mm-1" entityUid="Vòng d?m phi 70  2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20918940142768133 0.04589784263103891 0.10951580237405378</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 2mm-2" uid="vòng d?m b?c d?n phi 39 2mm-2" entityUid="vòng d?m b?c d?n phi 39 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20918940142768133 0.045897842631038799 0.12151580237405379</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 5mm-5" uid="vòng d?m b?c d?n phi 39 5mm-5" entityUid="vòng d?m b?c d?n phi 39 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20918940142768133 0.045897842631038799 0.1235158023740538</Translation>
+</Transform>
+</Instance>
+<Instance name="tr?c link 2-1" uid="tr?c link 2-1" entityUid="tr?c link 2*:*Default">
+<Transform>
+<Rotation>0.92334419020839809 -0.38397331470871454 0 0.38397331470871454 0.92334419020839809 0 0 0 1</Rotation>
+<Translation>0.2091894014276815 0.045897842631038799 0.091515802374053767</Translation>
+</Transform>
+</Instance>
+<Instance name="Poulie GT2 60 dents-1" uid="Poulie GT2 60 dents-1" entityUid="Poulie GT2 60 dents*:*Défaut">
+<Transform>
+<Rotation>-0.46222695976220379 0.88676165775759053 0 0.88676165775759053 0.46222695976220385 0 0 0 -0.99999999999999989</Rotation>
+<Translation>0.087189401427681362 0.045897842631038688 0.081699203463087566</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-2" uid="M3 - 15mm Luc giac-2" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323783 0 0.92372802134706833 0 1 0</Rotation>
+<Translation>0.087189401427681362 0.074897842631038714 0.062515802374053742</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-3" uid="M3 - 15mm Luc giac-3" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323783 0 0.92372802134706833 0 1 0</Rotation>
+<Translation>0.058189401427681336 0.045897842631038688 0.062515802374053797</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-4" uid="M3 - 15mm Luc giac-4" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323783 0 0.92372802134706833 0 1 0</Rotation>
+<Translation>0.20918940142768139 0.074897842631038825 0.062515802374053742</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-5" uid="M3 - 15mm Luc giac-5" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323783 0 0.92372802134706833 0 1 0</Rotation>
+<Translation>0.20918940142768139 0.016897842631038773 0.062515802374053742</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-6" uid="M3 - 15mm Luc giac-6" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323783 0 0.92372802134706833 0 1 0</Rotation>
+<Translation>0.14818940142768139 0.074897842631038825 0.062515802374053797</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-7" uid="M3 - 15mm Luc giac-7" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>0.99999542757447857 0 -0.0030240420196063784 -0.0030240420196063818 0 -0.99999542757447857 0 1 0</Rotation>
+<Translation>0.087189401427681501 0.016897842631039106 0.062515802374053742</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-8" uid="M3 - 15mm Luc giac-8" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323783 0 0.92372802134706833 0 1 0</Rotation>
+<Translation>0.14818940142768144 0.016897842631038773 0.062515802374053686</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-1" uid="M3 - 20mm Luc giac-1" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.14818940142768139 0.074897842631037492 0.12351580237405463</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-8" uid="M3 - 20mm Luc giac-8" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.23818940142768147 0.045897842631037467 0.1235158023740543</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-9" uid="M3 - 15mm Luc giac-9" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323783 0 0.92372802134706833 0 1 0</Rotation>
+<Translation>0.11618940142768142 0.045897842631038688 0.062515802374053797</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-10" uid="M3 - 15mm Luc giac-10" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.92372802134706822 0 -0.38304900806323788 -0.38304900806323783 0 0.92372802134706833 0 1 0</Rotation>
+<Translation>0.18018940142768142 0.045897842631038799 0.062515802374053797</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-5" uid="M3 - 20mm Luc giac-5" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.087189401427681362 0.016897842631037441 0.12351580237405402</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-4" uid="M3 NUT-4" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4927521471121706e-15 -1 0 1 -3.4900880682153511e-15</Rotation>
+<Translation>0.20918940142768139 0.033897842631038677 0.09911580237405393</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-3" uid="M3 - 20mm Luc giac-3" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.2091894014276815 0.074897842631037492 0.12351580237405457</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-6" uid="M3 - 20mm Luc giac-6" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.20918940142768144 0.016897842631037441 0.12351580237405396</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-10" uid="M3 - 20mm Luc giac-10" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.11618940142768142 0.045897842631037467 0.12351580237405424</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-1" uid="M5 NUT-1" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4927521471121706e-15 -1 0 1 -3.4900880682153511e-15</Rotation>
+<Translation>0.087189401427681418 0.027647842631038588 0.058015802374053904</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 50mm-2" uid="M3 - 50mm-2" entityUid="M3 - 50mm*:*Default">
+<Transform>
+<Rotation>-0.82660058389645075 0 -0.56278901437576645 0.56278901437576656 0 -0.82660058389645075 0 -1 0</Rotation>
+<Translation>0.20918940142768139 0.033897842631038788 0.14901580237405387</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - 25mm ?c l?c giác dù inox-2" uid="M5 - 25mm ?c l?c giác dù inox-2" entityUid="M5 - 25mm ?c l?c giác dù inox*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.087189401427681168 0.064147842631038343 0.072115802374054461</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-7" uid="M3 - 20mm Luc giac-7" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.08718940142768139 0.074897842631037492 0.12351580237405463</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-3" uid="M3 NUT-3" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4927521471121706e-15 -1 0 1 -3.4900880682153511e-15</Rotation>
+<Translation>0.20918940142768139 0.057897842631038698 0.099115802374054041</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing_KFL08-2" uid="Bearing_KFL08-2" entityUid="Bearing_KFL08*:*Default">
+<Transform>
+<Rotation>1 0 1.3966258705089274e-14 -1.3966258705089274e-14 3.4927521471121702e-15 1 0 -1 3.4905217490843453e-15</Rotation>
+<Translation>0.085726143554371331 -0.00060215736896251926 0.058453314352903796</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-2" uid="M5 NUT-2" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4927521471121706e-15 -1 0 1 -3.4900880682153511e-15</Rotation>
+<Translation>0.087189401427681362 0.064147842631038676 0.058015802374054015</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 50mm-4" uid="M3 - 50mm-4" entityUid="M3 - 50mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.20918940142768139 0.057897842631038809 0.14901580237405387</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - 25mm ?c l?c giác dù inox-1" uid="M5 - 25mm ?c l?c giác dù inox-1" entityUid="M5 - 25mm ?c l?c giác dù inox*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.087189401427681362 0.027647842631038255 0.072115802374054128</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 50mm-1" uid="M3 - 50mm-1" entityUid="M3 - 50mm*:*Default">
+<Transform>
+<Rotation>-0.96607378736602534 0 -0.25826621413623502 0.25826621413623507 0 -0.96607378736602534 0 -1 0</Rotation>
+<Translation>0.2211894014276814 0.045897842631038799 0.14901580237405387</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-9" uid="M3 - 20mm Luc giac-9" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.48478063300326157 0 -0.87463577440266926 0.87463577440266926 1.2123780671602813e-16 -0.48478063300326169 1.0440611526443319e-16 -1 0</Rotation>
+<Translation>0.18018940142768142 0.045897842631038799 0.12351580237405385</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 50mm-3" uid="M3 - 50mm-3" entityUid="M3 - 50mm*:*Default">
+<Transform>
+<Rotation>-0.61290892338402081 0 -0.79015356206008525 0.79015356206008525 0 -0.61290892338402081 0 -1 0</Rotation>
+<Translation>0.19718940142768132 0.045897842631038799 0.14901580237405387</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-1" uid="M3 NUT-1" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4927521471121706e-15 -1 0 1 -3.4900880682153511e-15</Rotation>
+<Translation>0.22118940142768134 0.045897842631038688 0.099115802374054041</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 20mm Luc giac-4" uid="M3 - 20mm Luc giac-4" entityUid="M3 - 20mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0475303225222576e-14 1 0 -1 1.0473217420759988e-14</Rotation>
+<Translation>0.14818940142768139 0.01689784263103733 0.12351580237405396</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-2" uid="M3 NUT-2" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4927521471121706e-15 -1 0 1 -3.4900880682153511e-15</Rotation>
+<Translation>0.19718940142768132 0.045897842631038688 0.09911580237405393</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link4_Final-1" uid="Link4_Final-1" entityUid="Link4_Final" rigid="true">
+<Transform>
+<Rotation>-0.95777583642527642 -0.11306037347705553 0.26435354945430717 0.26253075294658518 0.030990367316150073 0.96442584001617715 -0.11723075926206905 0.99310470197398548 1.3322676295501878e-15</Rotation>
+<Translation>0.29860859595331701 0.29993661657608134 0.63133847519530262</Translation>
+</Transform>
+<Instance name="Tru dong M3 - 40mm-1" uid="Tru dong M3 - 40mm-1" entityUid="Tru dong M3 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.083874223727399166 0.025121501754057252 0.067008825141486261</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 40mm-4" uid="Tru dong M3 - 40mm-4" entityUid="Tru dong M3 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.083874223727399166 0.049121501754057162 0.067008825141486317</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-2" uid="M3 - 10mm Luc giac-2" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.083874223727399139 0.049121501754057273 0.060008825141486366</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rigid Flange Coupling  v1.step-1" uid="8mm Rigid Flange Coupling  v1.step-1" entityUid="8mm Rigid Flange Coupling  v1.step" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.038874223727399154 0.03712150175405704 0.11200882514148636</Translation>
+</Transform>
+<Instance name="92605A009.step-1" uid="92605A009.step-1" grounded="true" entityUid="92605A009.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0080000000000000626 0.0060085152060409541</Translation>
+</Transform>
+</Instance>
+<Instance name="92605A009.step-2" uid="92605A009.step-2" grounded="true" entityUid="92605A009.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 -1 0 1 0 0</Rotation>
+<Translation>0.0060085152060410374 0.0080000000000000626 0</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rigid Flange Coupling v2.step-1" uid="8mm Rigid Flange Coupling v2.step-1" grounded="true" entityUid="8mm Rigid Flange Coupling v2.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="vòng d?m b?c d?n nh? 2mm-2" uid="vòng d?m b?c d?n nh? 2mm-2" entityUid="vòng d?m b?c d?n nh? 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038874223727399126 0.037121501754057373 0.098008825141486122</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 2mm-1" uid="vòng d?m b?c d?n phi 39 2mm-1" entityUid="vòng d?m b?c d?n phi 39 2mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038874223727399182 0.037121501754057373 0.10000882514148612</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n nh? 5mm-2" uid="vòng d?m b?c d?n nh? 5mm-2" entityUid="vòng d?m b?c d?n nh? 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038874223727399182 0.037121501754057484 0.093008825141486118</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-3" uid="M3 - 10mm Luc giac-3" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0468049118659728e-14 1 0 -1 1.0468049118659728e-14</Rotation>
+<Translation>0.083874223727399 0.049121501754056496 0.11400882514148669</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 5mm-1" uid="vòng d?m b?c d?n phi 39 5mm-1" entityUid="vòng d?m b?c d?n phi 39 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038874223727399126 0.037121501754057373 0.10200882514148618</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-4" uid="M3 - 10mm Luc giac-4" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1.0468049118659728e-14 1 0 -1 1.0468049118659728e-14</Rotation>
+<Translation>0.083874223727399083 0.025121501754056474 0.11400882514148647</Translation>
+</Transform>
+</Instance>
+<Instance name="Link4-1" uid="Link4-1" grounded="true" entityUid="Link4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.068874223727399153 0.037121501754057373 0.062008825141486201</Translation>
+</Transform>
+</Instance>
+<Instance name="Link4-2" uid="Link4-2" entityUid="Link4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.068874223727399153 0.037121501754057373 0.10700882514148613</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 5mm-2" uid="vòng d?m b?c d?n phi 39 5mm-2" entityUid="vòng d?m b?c d?n phi 39 5mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038874223727399126 0.037121501754057484 0.088008825141486113</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 10mm Luc giac-1" uid="M3 - 10mm Luc giac-1" entityUid="M3 - 10mm Luc giac*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.083874223727399111 0.025121501754057363 0.060008825141486311</Translation>
+</Transform>
+</Instance>
+<Instance name="tr?c link 3-1" uid="tr?c link 3-1" entityUid="tr?c link 3*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.038874223727399182 0.037121501754057373 0.03200882514148623</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-1" uid="M4 - 40mm-1" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.050874223727399109 0.037121501754057151 0.0858088251414863</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-3" uid="M4 NUT-3" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.038874223727399126 0.02512150175405703 0.1150088251414863</Translation>
+</Transform>
+</Instance>
+<Instance name="Link4_Giác hút-1" uid="Link4_Giác hút-1" entityUid="Link4_Giác hút*:*Default">
+<Transform>
+<Rotation>-3.5000256900953541e-15 -6.9805272673306733e-15 -1 0 -1 6.9805272673306733e-15 -1 0 3.5000256900953541e-15</Rotation>
+<Translation>0.10137422372739968 0.037121501754056707 0.087008825141485835</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-2" uid="M4 NUT-2" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.026874223727399116 0.03712150175405704 0.1150088251414863</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-4" uid="M4 NUT-4" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.038874223727399126 0.049121501754057051 0.11500882514148636</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-3" uid="M4 - 40mm-3" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.026874223727399116 0.037121501754057262 0.085808825141486245</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-4" uid="M4 - 40mm-4" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.038874223727399126 0.049121501754057273 0.085808825141486356</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-2" uid="M4 - 40mm-2" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.038874223727399099 0.025121501754057141 0.085808825141486245</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-1" uid="M4 NUT-1" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -3.4873785849027912e-15 -1 0 1 -3.4873785849027912e-15</Rotation>
+<Translation>0.050874223727399137 0.037121501754057151 0.11500882514148625</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Link1_Final-1" uid="Link1_Final-1" entityUid="Link1_Final" rigid="true">
+<Transform>
+<Rotation>-0.49495098171929652 -0.86880335661904584 -0.014291718671439572 0.86885771330627404 -0.49504638954766822 0.0039174256866982976 -0.010478536314636312 -0.010478536314639856 0.99989019424805115</Rotation>
+<Translation>0.44584455204931239 0.3325934492428998 0.35614723375693413</Translation>
+</Transform>
+<Instance name="Tru dong M3 - 40mm-4" uid="Tru dong M3 - 40mm-4" entityUid="Tru dong M3 - 40mm*:*Default">
+<Transform>
+<Rotation>0.70710678118654335 -0.70710678118655168 0 0.70710678118655168 0.70710678118654324 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.032301679678304863 -0.084756818350583019 0.29414054544906942</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 40mm-6" uid="Tru dong M3 - 40mm-6" entityUid="Tru dong M3 - 40mm*:*Default">
+<Transform>
+<Rotation>0.70710678118654335 -0.70710678118655168 0 0.70710678118655168 0.70710678118654324 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.056928462330256224 -0.10938360100253453 0.25826516179360059</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng ch?n vòng bi phi 47 3mm-2" uid="vòng ch?n vòng bi phi 47 3mm-2" entityUid="vòng ch?n vòng bi phi 47 3mm*:*Default">
+<Transform>
+<Rotation>0.49999999999999972 0.49999999999999994 0.70710678118654791 0.49999999999999989 0.50000000000000044 -0.70710678118654702 -0.70710678118654779 0.70710678118654702 1.1745668483570704e-16</Rotation>
+<Translation>-0.028316955612445724 -0.010061416166068593 0.30981596166500691</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rigid Flange Coupling  v1.step-1" uid="8mm Rigid Flange Coupling  v1.step-1" entityUid="8mm Rigid Flange Coupling  v1.step" rigid="true">
+<Transform>
+<Rotation>-0.99994509712402568 -0.010478536314641265 -5.4902875973719854e-05 5.4902875975089981e-05 -0.010478536314641195 0.99994509712402546 -0.010478536314641259 0.99989019424805092 0.010478536314641202</Rotation>
+<Translation>-0.070024978071543051 -0.094195845496358621 0.15725905411315899</Translation>
+</Transform>
+<Instance name="92605A009.step-1" uid="92605A009.step-1" grounded="true" entityUid="92605A009.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0.0080000000000000071 0.0060085152060409541</Translation>
+</Transform>
+</Instance>
+<Instance name="92605A009.step-2" uid="92605A009.step-2" grounded="true" entityUid="92605A009.step*:*Default">
+<Transform>
+<Rotation>0 0 1 0 -0.99999999999999978 0 0.99999999999999978 0 0</Rotation>
+<Translation>0.0060085152060409697 0.0080000000000000071 0</Translation>
+</Transform>
+</Instance>
+<Instance name="8mm Rigid Flange Coupling v2.step-1" uid="8mm Rigid Flange Coupling v2.step-1" grounded="true" entityUid="8mm Rigid Flange Coupling v2.step*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 2mm-3" uid="vòng d?m b?c d?n phi 39 2mm-3" entityUid="vòng d?m b?c d?n phi 39 2mm*:*Default">
+<Transform>
+<Rotation>0.99994509712402557 -5.4902875977328079e-05 -0.010478536314641266 -5.4902875971037579e-05 0.99994509712402546 -0.010478536314641185 0.010478536314641291 0.010478536314641166 0.99989019424805103</Rotation>
+<Translation>-0.069815407345250491 -0.093986274770065714 0.13726125022819796</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 2mm-2" uid="vòng d?m b?c d?n phi 39 2mm-2" entityUid="vòng d?m b?c d?n phi 39 2mm*:*Default">
+<Transform>
+<Rotation>0.99994509712402557 -5.4902875976661491e-05 -0.010478536314641259 -5.4902875971648201e-05 0.99994509712402546 -0.01047853631464115 0.010478536314641285 0.010478536314641129 0.99989019424805103</Rotation>
+<Translation>-0.069836364417879757 -0.094007231842694994 0.13926103061669415</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 2mm-5" uid="vòng d?m b?c d?n phi 39 2mm-5" entityUid="vòng d?m b?c d?n phi 39 2mm*:*Default">
+<Transform>
+<Rotation>-5.4902875976828458e-05 -0.99994509712402557 -0.010478536314641278 0.99994509712402546 5.4902875971592833e-05 -0.010478536314641186 0.010478536314641167 -0.010478536314641301 0.99989019424805103</Rotation>
+<Translation>-0.069721100518418538 -0.093891967943234178 0.12826223847996554</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n nh? 2mm-2" uid="vòng d?m b?c d?n nh? 2mm-2" entityUid="vòng d?m b?c d?n nh? 2mm*:*Default">
+<Transform>
+<Rotation>-5.4902875977771619e-05 -0.99994509712402557 -0.01047853631464127 0.99994509712402557 5.490287597059349e-05 -0.010478536314641129 0.010478536314641108 -0.010478536314641296 0.99989019424805103</Rotation>
+<Translation>-0.069794450272620989 -0.093965317697436657 0.13526146983970189</Translation>
+</Transform>
+</Instance>
+<Instance name="D912_M3_LXX-2" uid="D912_M3_LXX-2" entityUid="D912_M3_LXX*:*Default">
+<Transform>
+<Rotation>-0.010478536314641188 -0.38307869266835626 -0.92365627562432862 -0.010478536314641096 0.92369833660866718 -0.38297726201836568 0.99989019424805115 0.0056655246786343743 -0.013693110556418185</Rotation>
+<Translation>-0.069689006074962853 -0.10585987349977843 0.12513682546144567</Translation>
+</Transform>
+</Instance>
+<Instance name="D912_M3_LXX-3" uid="D912_M3_LXX-3" entityUid="D912_M3_LXX*:*Default">
+<Transform>
+<Rotation>-0.010478536314641188 -0.38307869266835631 -0.92365627562432862 -0.010478536314641095 0.92369833660866707 -0.38297726201836574 0.99989019424805092 0.0056655246786343734 -0.013693110556418185</Rotation>
+<Translation>-0.069690323743986302 -0.081861191168801861 0.12538831033299702</Translation>
+</Transform>
+</Instance>
+<Instance name="D912_M3_LXX-4" uid="D912_M3_LXX-4" entityUid="D912_M3_LXX*:*Default">
+<Transform>
+<Rotation>-0.010478536314641206 -0.38307869289604718 -0.92365627552989571 -0.010478536314641112 0.92369833651425948 -0.38297726224606693 0.99989019424805103 0.0056655246752588895 -0.01369311055781482</Rotation>
+<Translation>-0.081689006074962905 -0.093859873499778423 0.12513682546144572</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-1" uid="M3 NUT-1" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>-0.92365627562432895 0.010478536314641277 0.38307869266835609 -0.38297726201836541 0.010478536314641204 -0.92369833660866729 -0.013693110556418321 -0.99989019424805103 -0.0056655246786344472</Rotation>
+<Translation>-0.082080903333130478 -0.094251770757945885 0.1625327187263228</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-2" uid="M3 NUT-2" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>-0.92365627562432895 0.010478536314641277 0.38307869266835609 -0.38297726201836541 0.010478536314641204 -0.92369833660866729 -0.013693110556418321 -0.99989019424805103 -0.0056655246786344472</Rotation>
+<Translation>-0.058082221002153794 -0.094253088426969334 0.16278420359787427</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-3" uid="M3 NUT-3" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>-0.92365627562432895 0.010478536314641277 0.38307869266835576 -0.38297726201836507 0.010478536314641204 -0.92369833660866729 -0.013693110556418303 -0.99989019424805103 -0.0056655246786344463</Rotation>
+<Translation>-0.070080903333130468 -0.1062517707579459 0.1625327187263228</Translation>
+</Transform>
+</Instance>
+<Instance name="Link1_p1-1" uid="Link1_p1-1" entityUid="Link1_p1*:*Default">
+<Transform>
+<Rotation>0.4925356530390308 0.50735454120902079 -0.70710678118654724 0.49253565303902952 0.50735454120902101 0.70710678118654768 0.71750767310937669 -0.69655060048008544 7.6520505938240057e-16</Rotation>
+<Translation>0.014109452480573312 -0.052487821815435209 0.30981596169061576</Translation>
+</Transform>
+</Instance>
+<Instance name="Link1_p2-1" uid="Link1_p2-1" entityUid="Link1_p2*:*Default">
+<Transform>
+<Rotation>0.4925356530390308 0.50735454120902068 -0.70710678118654724 0.49253565303903007 0.50735454120902057 0.70710678118654791 0.71750767310937646 -0.69655060048008588 3.0531133177191805e-16</Rotation>
+<Translation>-0.021245887800580301 -0.017132483977933988 0.30981596166500691</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 40mm-1" uid="Tru dong M3 - 40mm-1" entityUid="Tru dong M3 - 40mm*:*Default">
+<Transform>
+<Rotation>0.70710678118654335 -0.70710678118655168 0 0.70710678118655168 0.70710678118654324 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.071697756334238472 -0.12415289500651683 0.18214311015548423</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 40mm-2" uid="Tru dong M3 - 40mm-2" entityUid="Tru dong M3 - 40mm*:*Default">
+<Transform>
+<Rotation>0.70710678118654335 -0.70710678118655168 0 0.70710678118655168 0.70710678118654324 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.040588308303367363 -0.093043446975645483 0.18277910263110908</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n nh? 5mm-2" uid="vòng d?m b?c d?n nh? 5mm-2" entityUid="vòng d?m b?c d?n nh? 5mm*:*Default">
+<Transform>
+<Rotation>-5.4902875975940056e-05 -0.99994509712402557 -0.010478536314641271 0.99994509712402557 5.4902875972895352e-05 -0.010478536314641173 0.010478536314641157 -0.010478536314641289 0.99989019424805115</Rotation>
+<Translation>-0.069742057591048026 -0.093912925015863236 0.13026201886846162</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 39 2mm-1" uid="vòng d?m b?c d?n phi 39 2mm-1" entityUid="vòng d?m b?c d?n phi 39 2mm*:*Default">
+<Transform>
+<Rotation>0.99994509712402557 -5.4902875978741147e-05 -0.010478536314641247 -5.4902875970093794e-05 0.99994509712402557 -0.010478536314641154 0.010478536314641292 0.010478536314641108 0.99989019424805115</Rotation>
+<Translation>-0.069857321490508814 -0.094028188915324495 0.14126081100519022</Translation>
+</Transform>
+</Instance>
+<Instance name="D912_M3_LXX-1" uid="D912_M3_LXX-1" entityUid="D912_M3_LXX*:*Default">
+<Transform>
+<Rotation>-0.010478536314641197 -0.38307869266835676 -0.92365627562432839 -0.010478536314641105 0.92369833660866707 -0.38297726201836613 0.99989019424805092 0.0056655246786343743 -0.013693110556418201</Rotation>
+<Translation>-0.057690323743986284 -0.093861191168801872 0.12538831033299708</Translation>
+</Transform>
+</Instance>
+<Instance name="liên k?t d?-khâu 1 d?u +-1" uid="liên k?t d?-khâu 1 d?u +-1" entityUid="liên k?t d?-khâu 1 d?u +*:*Default">
+<Transform>
+<Rotation>0.70702913679473101 -0.70710678118654802 -0.010478536314641282 0.70702913679473167 0.70710678118654702 -0.010478536314641188 0.014818888169984624 0 0.99989019424805103</Rotation>
+<Translation>-0.070129763434689463 -0.09430063085950513 0.16725795605563953</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 40mm-3" uid="Tru dong M3 - 40mm-3" entityUid="Tru dong M3 - 40mm*:*Default">
+<Transform>
+<Rotation>0.70710678118654335 -0.70710678118655168 0 0.70710678118655168 0.70710678118654324 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.002875116288181899 -0.055330254960459513 0.25374061062122433</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 NUT-4" uid="M3 NUT-4" entityUid="M3 NUT*:*Default">
+<Transform>
+<Rotation>-0.92365627562432895 0.010478536314641277 0.38307869266835609 -0.38297726201836541 0.010478536314641204 -0.92369833660866729 -0.013693110556418321 -0.99989019424805103 -0.0056655246786344472</Rotation>
+<Translation>-0.07008222100215375 -0.082253088426969323 0.16278420359787416</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 40mm-5" uid="Tru dong M3 - 40mm-5" entityUid="Tru dong M3 - 40mm*:*Default">
+<Transform>
+<Rotation>0.70710678118654335 -0.70710678118655168 0 0.70710678118655168 0.70710678118654324 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.02750189894013326 -0.07995703761241113 0.21786522696575561</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing 6807-2RS (35E47E7)-1" uid="Bearing 6807-2RS (35E47E7)-1" entityUid="Bearing 6807-2RS (35E47E7)*:*?? ?????????">
+<Transform>
+<Rotation>0.70710678118654735 0.70710678118654735 2.3009514182881219e-08 -0.70710678118654757 0.7071067811865468 2.3009513622565536e-08 -3.9493865399830078e-16 -3.2540366625213868e-08 0.99999999999999944</Rotation>
+<Translation>-0.023720761534733195 -0.014657610243781094 0.30981596166500702</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-4" uid="M4 NUT-4" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>0.99994509712809743 0.0104785363146412 -5.482866490481784e-05 -5.4977087044045954e-05 0.01047853631464111 0.99994509711994806 0.010478535536975087 -0.99989019424805092 0.010478537092307168</Rotation>
+<Translation>-0.10562132346610718 -0.05908151277226803 0.18025652858086427</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-3" uid="M3 - 15mm Luc giac-3" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>7.3430844738098244e-15 0.70710678118654757 0.70710678118654735 7.5165568214075051e-15 -0.70710678118654713 0.70710678118654768 0.99999999999999989 1.2112057966468578e-16 -1.0508954817467497e-14</Rotation>
+<Translation>-0.064271452783660296 -0.043187486212536874 0.21786522694014687</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-6" uid="M3 - 15mm Luc giac-6" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>7.3430844738098244e-15 0.70710678118654757 0.70710678118654735 7.5165568214075051e-15 -0.70710678118654713 0.70710678118654768 0.99999999999999989 1.2112057966468578e-16 -1.0508954817467497e-14</Rotation>
+<Translation>-0.069071233521832004 -0.047987266950708651 0.29414054542346069</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 25mm Luc giac-1" uid="M3 - 25mm Luc giac-1" entityUid="M3 - 25mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.70710678118654613 0.70710678118654891 1.3254636228949478e-16 -0.70710678118654891 -0.70710678118654613 0 0 -1.354071589137169e-16 1</Rotation>
+<Translation>-0.047979984775813188 -0.019824950392824392 0.33001592907892952</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 25mm Luc giac-3" uid="M3 - 25mm Luc giac-3" entityUid="M3 - 25mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.70710678118654613 0.70710678118654891 1.3254636228949478e-16 -0.70710678118654891 -0.70710678118654613 0 0 -1.354071589137169e-16 1</Rotation>
+<Translation>-0.018553421385690029 0.0096016129972990027 0.28961599425108453</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-3" uid="M4 - 40mm-3" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>-0.92365625886711955 -0.010478536314641206 -0.38307873307232759 -0.38297730242417666 -0.010478536314641103 0.92369831985589501 -0.013693110804248157 0.99989019424805103 0.005665524079649595</Rotation>
+<Translation>-0.105304871669405 -0.058765060975565775 0.15005984471457312</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-1" uid="M4 NUT-1" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>0.99994509712810542 0.0104785363146411 -5.4828519681619817e-05 -5.4977232267211756e-05 0.010478536314641011 0.99994509711994017 0.010478535535453177 -0.99989019424805115 0.010478537093828875</Rotation>
+<Translation>-0.043752391776977387 -0.067923259201792874 0.18081223688723869</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-3" uid="M4 NUT-3" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>0.99994509712810542 0.010478536314641287 -5.4828519681843813e-05 -5.4977232266991656e-05 0.010478536314641195 0.99994509711994017 0.010478535535453366 -0.99989019424805115 0.010478537093829057</Rotation>
+<Translation>-0.034910645347452376 -0.12979219089092275 0.18025652858086427</Translation>
+</Transform>
+</Instance>
+<Instance name="JGB37-520-12v-319RPM-1" uid="JGB37-520-12v-319RPM-1" entityUid="JGB37-520-12v-319RPM*:*?? ?????????">
+<Transform>
+<Rotation>-0.70282795924636532 -0.077671485769160956 0.70710678118654791 -0.7028279592463661 -0.077671485769161219 -0.70710678118654702 0.10984406858441648 -0.99394883198121509 1.2490009027033011e-16</Rotation>
+<Translation>-0.051532238068234745 -0.11812951236424307 0.22314779371308868</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-4" uid="M4 - 40mm-4" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>-0.9928074614845116 -0.010478536314641197 -0.11926250331677037 -0.11915348064256037 -0.010478536314641093 0.99282055192641216 -0.011653002679262807 0.99989019424805115 0.0091546149646831269</Rotation>
+<Translation>-0.034594193550750191 -0.12947573909422061 0.15005984471457312</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-1" uid="M4 - 40mm-1" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>-0.92365625723708178 -0.010478536314641271 -0.38307873700257566 -0.38297730635460392 -0.010478536314641183 0.92369831822628901 -0.013693110828355606 0.99989019424805115 0.0056655240213841071</Rotation>
+<Translation>-0.09641073255830683 -0.12058159998312246 0.14450468543695832</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-2" uid="M3 - 15mm Luc giac-2" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.049149608913813543 0.70710678118654802 0.70539656643877902 -0.049149608913813432 -0.70710678118654702 0.70539656643877968 0.99758139110913546 1.1143159641321121e-16 0.069508043511248577</Rotation>
+<Translation>-0.07735786214689451 -0.056273895575771116 0.18277910260550034</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-2" uid="Tru dong M3 - 35mm-2" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>-0.55189645028281531 0.70710678118654779 -0.44205238169839955 -0.55189645028281598 -0.70710678118654724 -0.44205238169839972 -0.62515647347720493 2.4953412003206353e-16 0.78049944501552648</Rotation>
+<Translation>-0.031993886610953232 -0.03495155060017241 0.28900823917044383</Translation>
+</Transform>
+</Instance>
+<Instance name="GT2_16 Teeth Pulley-1" uid="GT2_16 Teeth Pulley-1" entityUid="GT2_16 Teeth Pulley*:*Varsayilan">
+<Transform>
+<Rotation>-0.077671485769159998 -0.70282795924636543 -0.70710678118654802 -0.077671485769160262 -0.7028279592463661 0.70710678118654691 -0.99394883198121531 0.10984406858441528 -1.562658302279907e-16</Rotation>
+<Translation>-0.054960153311257622 -0.10359691536512772 0.2222800255712718</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 - 40mm-2" uid="M4 - 40mm-2" entityUid="M4 - 40mm*:*Default">
+<Transform>
+<Rotation>-0.95197020103546626 -0.010478536314641174 -0.30601133413191844 -0.30590679474402593 -0.010478536314641089 0.95200379894522436 -0.013182157256316964 0.99989019424805115 0.0067697988643855515</Rotation>
+<Translation>-0.043383547298701912 -0.067554414723517642 0.14561610204970732</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-4" uid="M3 - 15mm Luc giac-4" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>7.3430844738098244e-15 0.70710678118654757 0.70710678118654735 7.5165568214075051e-15 -0.70710678118654713 0.70710678118654768 0.99999999999999989 1.2112057966468578e-16 -1.0508954817467497e-14</Rotation>
+<Translation>-0.093698016173783538 -0.072614049602660047 0.25826516176799175</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-5" uid="M3 - 15mm Luc giac-5" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>7.3430844738098244e-15 0.70710678118654757 0.70710678118654735 7.5165568214075051e-15 -0.70710678118654713 0.70710678118654768 0.99999999999999989 1.2112057966468578e-16 -1.0508954817467497e-14</Rotation>
+<Translation>-0.039644670131708797 -0.018560703560585368 0.2537406105956157</Translation>
+</Transform>
+</Instance>
+<Instance name="m?t ch?n vòng bi phi 47 5mm-3" uid="m?t ch?n vòng bi phi 47 5mm-3" entityUid="m?t ch?n vòng bi phi 47 5mm*:*Default">
+<Transform>
+<Rotation>-0.49253565303903124 -0.50735454120902124 -0.70710678118654657 -0.49253565303902941 -0.50735454120902035 0.70710678118654846 -0.71750767310937646 0.69655060048008577 4.7184478546569153e-16</Rotation>
+<Translation>-0.017710353894647549 -0.020668017883866741 0.30981596166500702</Translation>
+</Transform>
+</Instance>
+<Instance name="Bearing_KFL08-3" uid="Bearing_KFL08-3" entityUid="Bearing_KFL08*:*Default">
+<Transform>
+<Rotation>0.49253565303903091 0.70710678118654713 0.50735454120902057 0.4925356530390293 -0.70710678118654768 0.50735454120902124 0.7175076731093768 -1.1698563708176692e-15 -0.69655060048008544</Rotation>
+<Translation>-0.005916413967224067 -0.081087341044467354 0.34115566586110202</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-1" uid="Tru dong M3 - 35mm-1" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>-0.55189645028281531 0.70710678118654779 -0.44205238169839955 -0.55189645028281598 -0.70710678118654724 -0.44205238169839972 -0.62515647347720493 2.4953412003206353e-16 0.78049944501552648</Rotation>
+<Translation>-0.0034268187346894463 -0.0063844827239086799 0.33062368421078758</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-3" uid="Tru dong M3 - 35mm-3" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>-0.55189645028281531 0.70710678118654779 -0.44205238169839955 -0.55189645028281598 -0.70710678118654724 -0.44205238169839972 -0.62515647347720493 2.4953412003206353e-16 0.78049944501552648</Rotation>
+<Translation>-0.032423634367883002 -0.035381298357102131 0.33001592910453825</Translation>
+</Transform>
+</Instance>
+<Instance name="m?t ch?n vòng bi phi 47 5mm-2" uid="m?t ch?n vòng bi phi 47 5mm-2" entityUid="m?t ch?n vòng bi phi 47 5mm*:*Default">
+<Transform>
+<Rotation>0.49253565303903013 -0.50735454120901957 0.70710678118654835 0.49253565303903063 -0.50735454120902168 -0.70710678118654646 0.71750767310937635 0.69655060048008588 -8.0491169285323849e-16</Rotation>
+<Translation>-0.03185248951837856 -0.0065258822601358402 0.30981596166500691</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 35mm-4" uid="Tru dong M3 - 35mm-4" entityUid="Tru dong M3 - 35mm*:*Default">
+<Transform>
+<Rotation>-0.55189645028281531 0.70710678118654779 -0.44205238169839955 -0.55189645028281598 -0.70710678118654724 -0.44205238169839972 -0.62515647347720493 2.4953412003206353e-16 0.78049944501552648</Rotation>
+<Translation>-0.0029970709777597596 -0.0059547349669789584 0.28961599427669327</Translation>
+</Transform>
+</Instance>
+<Instance name="M4 NUT-2" uid="M4 NUT-2" entityUid="M4 NUT*:*Default">
+<Transform>
+<Rotation>0.99994509712810542 0.010478536314641287 -5.4828519681843813e-05 -5.4977232266991656e-05 0.010478536314641195 0.99994509711994017 0.010478535535453366 -0.99989019424805115 0.010478537093829057</Rotation>
+<Translation>-0.096779577036582187 -0.1209504444613978 0.17970082027448986</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-1" uid="M3 - 15mm Luc giac-1" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>7.3430844738098244e-15 0.70710678118654802 0.70710678118654724 7.4107386893729199e-15 -0.70710678118654691 0.70710678118654802 0.99999999999999989 0 -1.0430892261048541e-14</Rotation>
+<Translation>-0.1084673101777659 -0.087383343606642461 0.18214311012987539</Translation>
+</Transform>
+</Instance>
+<Instance name="Tru dong M3 - 40mm-7" uid="Tru dong M3 - 40mm-7" entityUid="Tru dong M3 - 40mm*:*Default">
+<Transform>
+<Rotation>0.70710678118654335 -0.70710678118655168 0 0.70710678118655168 0.70710678118654324 0 0 0 0.99999999999999978</Rotation>
+<Translation>-0.074564718701309457 -0.12701985737358801 0.22871343055772864</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-7" uid="M3 - 15mm Luc giac-7" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>7.3430844738098244e-15 0.70710678118654757 0.70710678118654735 7.5165568214075051e-15 -0.70710678118654713 0.70710678118654768 0.99999999999999989 1.2112057966468578e-16 -1.0508954817467497e-14</Rotation>
+<Translation>-0.11133427254483447 -0.090250305973710976 0.22871343053212734</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 25mm Luc giac-2" uid="M3 - 25mm Luc giac-2" entityUid="M3 - 25mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.70710678118654613 0.70710678118654891 1.3254636228949478e-16 -0.70710678118654891 -0.70710678118654613 0 0 -1.354071589137169e-16 1</Rotation>
+<Translation>-0.047550237018883501 -0.019395202635894671 0.28900823914483509</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-8" uid="M3 - 15mm Luc giac-8" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>-0.023816398304066767 -0.093242099724821448 0.29414054544906942</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-9" uid="M3 - 15mm Luc giac-9" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>0.0012401321048144676 -0.068185569315940109 0.28900823917044383</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-10" uid="M3 - 15mm Luc giac-10" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>0.00081038434788477387 -0.068615317072869941 0.33001592910453825</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-11" uid="M3 - 15mm Luc giac-11" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>0.030236947738008002 -0.039188753682746658 0.28961599427669316</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-16" uid="M3 - 15mm Luc giac-16" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>-0.048443180956018295 -0.11786888237677295 0.25826516179360059</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 25mm Luc giac-4" uid="M3 - 25mm Luc giac-4" entityUid="M3 - 25mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.70710678118654613 0.70710678118654891 1.3254636228949478e-16 -0.70710678118654891 -0.70710678118654613 0 0 -1.354071589137169e-16 1</Rotation>
+<Translation>-0.018983169142619744 0.0091718652403691703 0.33062368418517896</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-17" uid="M3 - 15mm Luc giac-17" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>-0.063212474960000598 -0.13263817638075515 0.18214311015548412</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-18" uid="M3 - 15mm Luc giac-18" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>-0.032103026929129266 -0.1015287283498838 0.18277910263110897</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-19" uid="M3 - 15mm Luc giac-19" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>0.0056101650860563845 -0.063815536334698164 0.25374061062122444</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-20" uid="M3 - 15mm Luc giac-20" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>-0.019016617565895046 -0.088442318986649671 0.2178652269657555</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-1" uid="M5 NUT-1" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>0.70710678118654746 -0.70710678118654779 1.1969591984239969e-16 0.70710678118654779 0.70710678118654735 -3.41740524767431e-16 1.5785983631388945e-16 3.2693146808179172e-16 0.99999999999999978</Rotation>
+<Translation>0.0094464261812212263 -0.066343236270212436 0.32252801014937726</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-21" uid="M3 - 15mm Luc giac-21" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>-0.066079437327071638 -0.13550513874782621 0.22871343055772841</Translation>
+</Transform>
+</Instance>
+<Instance name="M3 - 15mm Luc giac-22" uid="M3 - 15mm Luc giac-22" entityUid="M3 - 15mm Luc giac*:*Default">
+<Transform>
+<Rotation>-0.44205238169840561 -0.70710678118654768 -0.55189645028281054 -0.44205238169840561 0.70710678118654724 -0.55189645028281109 0.78049944501551971 -2.223254343714125e-16 -0.62515647347721326</Rotation>
+<Translation>0.029807199981078253 -0.039618501439676379 0.33062368421078769</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - 25mm ?c l?c giác dù inox-3" uid="M5 - 25mm ?c l?c giác dù inox-3" entityUid="M5 - 25mm ?c l?c giác dù inox*:*Default">
+<Transform>
+<Rotation>-0.55189645028281553 0.70710678118654768 -0.44205238169839961 -0.55189645028281531 -0.70710678118654746 -0.44205238169840022 -0.62515647347720527 -4.4208199902499594e-16 0.78049944501552626</Rotation>
+<Translation>-0.0040593133394418029 -0.052837496749549295 0.32252801014937726</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 - 25mm ?c l?c giác dù inox-2" uid="M5 - 25mm ?c l?c giác dù inox-2" entityUid="M5 - 25mm ?c l?c giác dù inox*:*Default">
+<Transform>
+<Rotation>-0.55189645028281553 0.70710678118654768 -0.44205238169839961 -0.55189645028281531 -0.70710678118654746 -0.44205238169840022 -0.62515647347720527 -4.4208199902499594e-16 0.78049944501552626</Rotation>
+<Translation>0.014459127414687425 -0.034319055995420067 0.29710391323185426</Translation>
+</Transform>
+</Instance>
+<Instance name="M5 NUT-2" uid="M5 NUT-2" entityUid="M5 NUT*:*Default">
+<Transform>
+<Rotation>0.70710678118654746 -0.70710678118654779 1.1969591984239969e-16 0.70710678118654779 0.70710678118654735 -3.41740524767431e-16 1.5785983631388945e-16 3.2693146808179172e-16 0.99999999999999978</Rotation>
+<Translation>0.027964866935350483 -0.047824795516083096 0.29710391323185414</Translation>
+</Transform>
+</Instance>
+<Instance name="Poulie GT2 60 dents-4" uid="Poulie GT2 60 dents-4" entityUid="Poulie GT2 60 dents*:*Défaut">
+<Transform>
+<Rotation>0.61404819011529277 0.35063488163064077 0.70710678118654735 0.6140481901152931 0.35063488163063955 -0.70710678118654768 -0.49587260504313602 0.86839527841170006 -8.6042284408449632e-16</Rotation>
+<Translation>-0.0069770075460284658 -0.031401361788833348 0.30981596169061576</Translation>
+</Transform>
+</Instance>
+<Instance name="liên k?t d?-khâu 1 10mm-1" uid="liên k?t d?-khâu 1 10mm-1" entityUid="liên k?t d?-khâu 1 10mm*:*Default">
+<Transform>
+<Rotation>0.70702913679473101 -0.70710678118654791 -0.010478536314641284 0.70702913679473156 0.70710678118654735 -0.010478536314641192 0.014818888169984626 0 0.99989019424805137</Rotation>
+<Translation>-0.070024978071542995 -0.094195845496358621 0.15725905411315899</Translation>
+</Transform>
+</Instance>
+<Instance name="liên k?t d?-khâu 1 5mm-1" uid="liên k?t d?-khâu 1 5mm-1" entityUid="liên k?t d?-khâu 1 5mm*:*Default">
+<Transform>
+<Rotation>0.70702913679473112 -0.70710678118654768 -0.010478536314641278 0.70702913679473145 0.70710678118654724 -0.010478536314641183 0.014818888169984619 0 0.99989019424805115</Rotation>
+<Translation>-0.06997258538996981 -0.094143452814785422 0.15225960314191878</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 50 5mm-1" uid="vòng d?m b?c d?n phi 50 5mm-1" entityUid="vòng d?m b?c d?n phi 50 5mm*:*Default">
+<Transform>
+<Rotation>-5.4902875977994138e-05 -0.99994509712402557 -0.010478536314641256 0.99994509712402546 5.4902875970841264e-05 -0.010478536314641188 0.010478536314641152 -0.010478536314641294 0.99989019424805103</Rotation>
+<Translation>-0.069920192708396625 -0.094091060133212334 0.14726015217067856</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 47 2mm-1" uid="vòng d?m b?c d?n phi 47 2mm-1" entityUid="vòng d?m b?c d?n phi 47 2mm*:*Default">
+<Transform>
+<Rotation>-5.4902875977327584e-05 -0.99994509712402557 -0.01047853631464128 0.99994509712402546 5.4902875971507655e-05 -0.010478536314641148 0.010478536314641119 -0.010478536314641311 0.99989019424805103</Rotation>
+<Translation>-0.069899235635767359 -0.094070103060583055 0.14526037178218243</Translation>
+</Transform>
+</Instance>
+<Instance name="vòng d?m b?c d?n phi 47 2mm-2" uid="vòng d?m b?c d?n phi 47 2mm-2" entityUid="vòng d?m b?c d?n phi 47 2mm*:*Default">
+<Transform>
+<Rotation>-5.4902875977327584e-05 -0.99994509712402557 -0.01047853631464128 0.99994509712402546 5.4902875971507655e-05 -0.010478536314641148 0.010478536314641119 -0.010478536314641311 0.99989019424805103</Rotation>
+<Translation>-0.06987827856313808 -0.094049145987953775 0.1432605913936863</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>De robot-1</Uid>
+<Uid>tr?c base-2</Uid>
+</InstancePath>
+<Position>0 0 0.099999999999999978</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link1_Final-1</Uid>
+<Uid>vòng d?m b?c d?n phi 39 2mm-5</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>De robot-1</Uid>
+<Uid>bearing_51109_2-1</Uid>
+<Uid>bearing_51109_2_02.STEP-1</Uid>
+</InstancePath>
+<Position>0.02750000000000008 0.014000000000000012 0</Position>
+<Axis>0 1 -1.2246063538223733e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Link1_Final-1</Uid>
+<Uid>vòng d?m b?c d?n phi 50 5mm-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robot_Final</Uid>
+</InstancePath>
+<Position>0.46109134039199928 0.38864437981517935 0.63682047483786763</Position>
+<Axis>0.33033541306522374 0.94386361031402632 2.1610882567077739e-15</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link2_Final-3</Uid>
+<Uid>tr?c link 2-1</Uid>
+</InstancePath>
+<Position>0 -1.1102230246251565e-16 0.10999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link1_Final-1</Uid>
+<Uid>Bearing 6807-2RS (35E47E7)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 1.3518493825693554e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link2_Final-3</Uid>
+<Uid>vòng d?m b?c d?n nh? 5mm-1</Uid>
+</InstancePath>
+<Position>0 0 0.00500000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link1_Final-1</Uid>
+<Uid>Bearing 6807-2RS (35E47E7)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 1.3518493825693554e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link2_Final-3</Uid>
+<Uid>vòng d?m b?c d?n nh? 2mm-2</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link1_Final-1</Uid>
+<Uid>Bearing_KFL08-3</Uid>
+</InstancePath>
+<Position>0.0014632578733099755 0.0050875119788499901 0.046499999999999986</Position>
+<Axis>-1.4282462905014893e-16 -0.99999999999999989 -1.0697555149053437e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link2_Final-3</Uid>
+<Uid>tr?c link 2-1</Uid>
+</InstancePath>
+<Position>0 -1.1102230246251565e-16 0.10999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link1_Final-1</Uid>
+<Uid>Bearing 6807-2RS (35E47E7)-1</Uid>
+</InstancePath>
+<Position>0.0029999999999999472 0.018999999999999961 0</Position>
+<Axis>1 1.3518493825693554e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2_Final-3</Uid>
+<Uid>vòng d?m b?c d?n phi 39 5mm-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link1_Final-1</Uid>
+<Uid>Bearing_KFL08-3</Uid>
+</InstancePath>
+<Position>0.0014632578733099755 0.0050875119788499901 0.046499999999999986</Position>
+<Axis>-1.4282462905014893e-16 -0.99999999999999989 -1.0697555149053437e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link2_Final-3</Uid>
+<Uid>tr?c link 2-1</Uid>
+</InstancePath>
+<Position>0 -1.1102230246251565e-16 0.10999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link2_Final-3</Uid>
+<Uid>Bearing 6807-2RS (35E47E7)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link3_Final-1</Uid>
+<Uid>vòng d?m b?c d?n nh? 5mm-1</Uid>
+</InstancePath>
+<Position>0 0 0.00500000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Link2_Final-3</Uid>
+<Uid>Bearing 6807-2RS (35E47E7)-1</Uid>
+</InstancePath>
+<Position>-0.0026999999999999802 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Link3_Final-1</Uid>
+<Uid>vòng d?m b?c d?n phi 39 5mm-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link2_Final-3</Uid>
+<Uid>Bearing 6807-2RS (35E47E7)-1</Uid>
+</InstancePath>
+<Position>-0.0030000000000000027 0.019000000000000017 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link3_Final-1</Uid>
+<Uid>vòng d?m b?c d?n phi 39 5mm-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link3_Final-1</Uid>
+<Uid>Bearing 6807-2RS (35E47E7)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link4_Final-1</Uid>
+<Uid>vòng d?m b?c d?n nh? 5mm-2</Uid>
+</InstancePath>
+<Position>0 -1.1102230246251565e-16 0.00500000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link3_Final-1</Uid>
+<Uid>Bearing 6807-2RS (35E47E7)-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Link4_Final-1</Uid>
+<Uid>vòng d?m b?c d?n nh? 2mm-2</Uid>
+</InstancePath>
+<Position>0 0 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Link3_Final-1</Uid>
+<Uid>Bearing 6807-2RS (35E47E7)-1</Uid>
+</InstancePath>
+<Position>-0.0034999999999999476 0.017499999999999849 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Link4_Final-1</Uid>
+<Uid>vòng d?m b?c d?n phi 39 2mm-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Link3_Final" uid="Link3_Final" version="451">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Link3_Final.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="8mm Rigid Flange Coupling  v1.step" uid="8mm Rigid Flange Coupling  v1.step" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="8mm Rigid Flange Coupling  v1.step.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="De robot" uid="De robot" version="1080">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="De robot.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="bearing_51109_2" uid="bearing_51109_2" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="bearing_51109_2.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Link2_Final" uid="Link2_Final" version="490">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Link2_Final.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Link4_Final" uid="Link4_Final" version="251">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Link4_Final.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Link1_Final" uid="Link1_Final" version="751">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Link1_Final.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="8mm Rigid Flange Coupling v2.step" uid="8mm Rigid Flange Coupling v2.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="8mm Rigid Flange Coupling v2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.003533074705005699</Mass>
+<CenterOfMass>-6.2313198295748959e-05 0.0040960870334849899 -6.2315890178099421e-05</CenterOfMass>
+<Inertia>2.2047960279050966e-07 3.4264624921263932e-07 2.204796928765415e-07 8.5968233890352108e-10 1.3744487226856061e-11 8.5976451911684026e-10</Inertia>
+</MassProperties>
+<GeometryFile name="8mm Rigid Flange Coupling v2.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.96078431372549022" g="0.96078431372549022" b="0.96470588235294119" a="1"/>
+<Diffuse r="0.96078431372549022" g="0.96078431372549022" b="0.96470588235294119" a="1"/>
+<Specular r="0.48039215686274511" g="0.48039215686274511" b="0.4823529411764706" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="92605A009.step" uid="92605A009.step*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="92605A009.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.3354534249404638e-05</Mass>
+<CenterOfMass>1.1868858193720947e-05 6.3372937656315465e-06 -0.00010702264255445368</CenterOfMass>
+<Inertia>3.6239217813456403e-11 3.6320808109778491e-11 4.1636893732659932e-11 -2.0711746303512626e-14 -1.6466277137850643e-13 -3.4875076467642155e-14</Inertia>
+</MassProperties>
+<GeometryFile name="92605A009.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Diffuse r="0.62745098039215685" g="0.62745098039215685" b="0.62745098039215685" a="1"/>
+<Specular r="0.31372549019607843" g="0.31372549019607843" b="0.31372549019607843" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bearing 6807-2RS (35E47E7)" uid="Bearing 6807-2RS (35E47E7)*:*?? ?????????" version="153">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bearing 6807-2RS (35E47E7).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.038630619359700268</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.6594288232213698e-05 8.4314472845598145e-06 8.4314472845598196e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bearing 6807-2RS (35E47E7)_?? ?????????_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bearing_KFL08" uid="Bearing_KFL08*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bearing_KFL08.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0043565173730468155</Mass>
+<CenterOfMass>0.0014648882608216634 -0.0022552939244920777 0.046496871188593074</CenterOfMass>
+<Inertia>3.8887890463238825e-07 5.5773297783997764e-07 2.1605145924292283e-07 6.6906191711371381e-11 4.1302282835026942e-12 -5.1734170511194816e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Bearing_KFL08_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="D912_M3_LXX" uid="D912_M3_LXX*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="D912_M3_LXX.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00036184081349370371</Mass>
+<CenterOfMass>0.02079753977880397 4.3378561558216675e-07 1.2352535848702805e-07</CenterOfMass>
+<Inertia>5.8253204377352758e-10 7.5441862747474558e-08 7.5441860703039361e-08 7.2275244928084322e-14 -1.1564082270000307e-12 -2.4724431058384476e-12</Inertia>
+</MassProperties>
+<GeometryFile name="D912_M3_LXX_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="GT2_16 Teeth Pulley" uid="GT2_16 Teeth Pulley*:*Varsayilan" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="GT2_16 Teeth Pulley.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010893656616487776</Mass>
+<CenterOfMass>1.2150588650365063e-09 -4.2988819793002324e-05 -0.00028603862164234921</CenterOfMass>
+<Inertia>3.1703302659583907e-08 3.1911553852588724e-08 2.0710405617414086e-08 -1.5802878581857004e-10 0 -5.6970108788939568e-15</Inertia>
+</MassProperties>
+<GeometryFile name="GT2_16 Teeth Pulley_Varsayilan_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="JGA25-370 DC 12V60RPM" uid="JGA25-370 DC 12V60RPM*:*Default" version="190">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JGA25-370 DC 12V60RPM.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.026040412067438904</Mass>
+<CenterOfMass>0.016563748765874804 -5.6745871558623957e-07 0</CenterOfMass>
+<Inertia>1.9413625346331228e-06 7.6876932179940003e-06 7.6869937871472658e-06 0 0 5.05523044755517e-10</Inertia>
+</MassProperties>
+<GeometryFile name="JGA25-370 DC 12V60RPM_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="JGB37-520-12v-319RPM" uid="JGB37-520-12v-319RPM*:*?? ?????????" version="202">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="JGB37-520-12v-319RPM.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.3346797406371948</Mass>
+<CenterOfMass>-0.00022649698714445656 0 0.020503531041090626</CenterOfMass>
+<Inertia>8.424270352298768e-05 8.4754415801830991e-05 5.0729382285034705e-05 0 -1.9869671432752592e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="JGB37-520-12v-319RPM_?? ?????????_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link1_p1" uid="Link1_p1*:*Default" version="195">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link1_p1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14139198075138459</Mass>
+<CenterOfMass>-0.076989100658505338 0.0040233129323473567 0.0049999999999999992</CenterOfMass>
+<Inertia>6.9935621672357175e-05 0.00051314640402522758 0.00058072549268506151 0 0 4.4276580072605321e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Link1_p1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link1_p2" uid="Link1_p2*:*Default" version="169">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link1_p2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12803898109378495</Mass>
+<CenterOfMass>-0.08757171155632501 0.0044904654118341067 0.005000000000000001</CenterOfMass>
+<Inertia>6.7504698639421335e-05 0.00040543013714229988 0.0004708008527634915 0 0 3.8202783724340299e-05</Inertia>
+</MassProperties>
+<GeometryFile name="Link1_p2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link2_p1" uid="Link2_p1*:*Default" version="177">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link2_p1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.052005187188447988</Mass>
+<CenterOfMass>0.0088121783643098448 -0.00015837760930568099 0.0025000000000000005</CenterOfMass>
+<Inertia>2.2071361453574146e-05 0.00012735796079021476 0.00014921263396383707 0 0 -2.7541751380797291e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Link2_p1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link2_p2" uid="Link2_p2*:*Default" version="173">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link2_p2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.048152974935117207</Mass>
+<CenterOfMass>0.0085090655487600111 0.00033987212695839981 0.0024999999999999996</CenterOfMass>
+<Inertia>2.0946196354612808e-05 0.0001246123289147172 0.00014535788787376703 0 0 2.4746443086637611e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Link2_p2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link2_p3" uid="Link2_p3*:*Default" version="136">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link2_p3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.057742465390372179</Mass>
+<CenterOfMass>-0.0005116682584523439 -0.00035632416926480458 0.0025000000000000005</CenterOfMass>
+<Inertia>2.2744459060724544e-05 0.0001570761465990789 0.0001795800120540102 0 0 7.0063286290365689e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Link2_p3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link3_p1" uid="Link3_p1*:*Default" version="139">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link3_p1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.032684415812806136</Mass>
+<CenterOfMass>-0.0090126560727402782 -9.3170263708576125e-05 0.0025000000000000001</CenterOfMass>
+<Inertia>1.2080432494518978e-05 4.2585100956045512e-05 5.4529348384677802e-05 0 0 2.7445481234613568e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Link3_p1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link3_p2" uid="Link3_p2*:*Default" version="145">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link3_p2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.039613339025509307</Mass>
+<CenterOfMass>-0.00052702422982321749 -0.00024894168349860735 0.0025000000000000001</CenterOfMass>
+<Inertia>1.2899631775174171e-05 5.6210703810340478e-05 6.8945280006241688e-05 0 0 4.542032533908404e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Link3_p2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link4" uid="Link4*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015335738319629354</Mass>
+<CenterOfMass>-0.00054760272038381901 -2.1426188342069742e-05 0.0025000000000000001</CenterOfMass>
+<Inertia>1.9929004564674677e-06 1.1381569069478912e-05 1.3310570616281258e-05 0 0 -3.1926514015593109e-09</Inertia>
+</MassProperties>
+<GeometryFile name="Link4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Link4_Giác hút" uid="Link4_Giác hút*:*Default" version="458">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Link4_Giác hút.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.024170100242535745</Mass>
+<CenterOfMass>4.0991082517251237e-08 -3.3302932494816791e-08 -0.0032528597914067998</CenterOfMass>
+<Inertia>3.4826774087560742e-06 4.8786634699084614e-06 6.8174365719459164e-06 -4.4014212126261999e-12 5.2055629315981135e-12 -2.0466845593090282e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Link4_Giác hút_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 - 10mm Luc giac" uid="M3 - 10mm Luc giac*:*Default" version="603">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 - 10mm Luc giac.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.5008291853151112e-05</Mass>
+<CenterOfMass>-1.7227109187406575e-07 0.0052704306948550307 -2.3690596243953613e-07</CenterOfMass>
+<Inertia>1.3018207199658803e-09 1.5262383865798497e-10 1.3018212785950543e-09 3.0587382776187347e-14 3.8479716120288406e-14 2.0021942227914013e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M3 - 10mm Luc giac_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 - 15mm Luc giac" uid="M3 - 15mm Luc giac*:*Default" version="693">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 - 15mm Luc giac.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00012937977179727767</Mass>
+<CenterOfMass>-4.942403190530033e-07 0.0076984431224051573 -1.7345901699944707e-07</CenterOfMass>
+<Inertia>3.4827819750944976e-09 1.9032934326348768e-10 3.4827917552315516e-09 7.7524428675117543e-14 1.8863561955603221e-13 1.1363871575222961e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M3 - 15mm Luc giac_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 - 20mm Luc giac" uid="M3 - 20mm Luc giac*:*Default" version="648">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 - 20mm Luc giac.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00016423459508973747</Mass>
+<CenterOfMass>-2.4812577575851675e-07 0.010142672620210515 -2.9633286227290535e-07</CenterOfMass>
+<Inertia>7.2939866255052702e-09 2.2905933637276751e-10 7.2939504520234845e-09 1.2195341323628918e-15 3.3732764702106911e-13 3.2886114104461233e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M3 - 20mm Luc giac_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 - 25mm Luc giac" uid="M3 - 25mm Luc giac*:*Default" version="677">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 - 25mm Luc giac.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00019957488984215685</Mass>
+<CenterOfMass>-2.3666808371579075e-07 0.012591415315398794 -2.1864183220429935e-07</CenterOfMass>
+<Inertia>1.3176934142535359e-08 2.6881663070861202e-10 1.3176850222876642e-08 1.470031550168612e-13 5.0145016157174052e-13 3.8234193622820559e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M3 - 25mm Luc giac_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 - 50mm" uid="M3 - 50mm*:*Default" version="923">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 - 50mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00054101699023049034</Mass>
+<CenterOfMass>1.5734880865197524e-09 0.01912673614293374 0</CenterOfMass>
+<Inertia>1.6158978056693985e-07 2.0258002791258283e-09 1.6158979487204972e-07 0 0 1.2253193239479446e-14</Inertia>
+</MassProperties>
+<GeometryFile name="M3 - 50mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M3 NUT" uid="M3 NUT*:*Default" version="203">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M3 NUT.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.4661350868518679e-05</Mass>
+<CenterOfMass>-7.3080928736960732e-09 0.0011999999999999938 0</CenterOfMass>
+<Inertia>1.3951844203971945e-10 2.3804235027887615e-10 1.3951954722611068e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M3 NUT_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M4 - 15mm Luc giac" uid="M4 - 15mm Luc giac*:*Default" version="735">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M4 - 15mm Luc giac.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00024721707189529878</Mass>
+<CenterOfMass>2.8389456776157748e-06 0.0073762683784762582 -7.8020458407674094e-07</CenterOfMass>
+<Inertia>7.4714314394342555e-09 7.1533315536368882e-10 7.4706380399726411e-09 -2.4148719223430917e-13 8.0957549504104788e-13 -2.3958568827316427e-12</Inertia>
+</MassProperties>
+<GeometryFile name="M4 - 15mm Luc giac_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M4 - 40mm" uid="M4 - 40mm*:*Default" version="652">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M4 - 40mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00058956165595693553</Mass>
+<CenterOfMass>-2.0803350631799728e-08 0.018720225003061499 3.9939446698967122e-08</CenterOfMass>
+<Inertia>1.0066774813989981e-07 1.6128793174681296e-09 1.0066771524533376e-07 -4.42539194608311e-13 1.345280680790376e-14 8.63787053435634e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M4 - 40mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M4 NUT" uid="M4 NUT*:*Default" version="183">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M4 NUT.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.7498423330543453e-05</Mass>
+<CenterOfMass>-5.3039400768346372e-09 0.0015000000000000096 0</CenterOfMass>
+<Inertia>4.477091388656868e-10 7.691848224909173e-10 4.4771429202137442e-10 -8.8562611972970338e-16 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M4 NUT_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 - 25mm ?c l?c giác dù inox" uid="M5 - 25mm ?c l?c giác dù inox*:*Default" version="911">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 - 25mm ?c l?c giác dù inox.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00058517598631402205</Mass>
+<CenterOfMass>-8.9405466898837729e-08 0.011940467547764417 2.4398562480909052e-08</CenterOfMass>
+<Inertia>4.3630779716136758e-08 2.6530303417035331e-09 4.3630673758030656e-08 -2.495495244215055e-14 2.3326273089519012e-12 1.2613555526652803e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M5 - 25mm ?c l?c giác dù inox_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M5 NUT" uid="M5 NUT*:*Default" version="183">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M5 NUT.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.7498423330543466e-05</Mass>
+<CenterOfMass>-5.3039400768392529e-09 0.0015000000000000096 0</CenterOfMass>
+<Inertia>4.477091388656867e-10 7.691848224909172e-10 4.4771429202137431e-10 -8.8562611972930895e-16 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M5 NUT_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Poulie GT2 60 dents" uid="Poulie GT2 60 dents*:*Défaut" version="223">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Poulie GT2 60 dents.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014547739337231696</Mass>
+<CenterOfMass>2.5517485106684243e-05 2.5519201925475697e-05 -0.0018360975906834918</CenterOfMass>
+<Inertia>1.5045175968554811e-06 1.5045178334340347e-06 2.4229243107643007e-06 2.4739231901329263e-09 2.4741237919450295e-09 9.4517898128812486e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Poulie GT2 60 dents_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Screw_DIN_912_M5x70_A2.step" uid="Screw_DIN_912_M5x70_A2.step*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Screw_DIN_912_M5x70_A2.step.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015387312638782706</Mass>
+<CenterOfMass>8.985049214437522e-10 0.042179999308249526 1.9152485202073088e-07</CenterOfMass>
+<Inertia>7.7560091492419899e-07 6.3206221306940002e-09 7.7560283670095508e-07 4.3463879169456927e-12 2.9708113509446228e-12 -3.5210323130964313e-12</Inertia>
+</MassProperties>
+<GeometryFile name="Screw_DIN_912_M5x70_A2.step_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.65098039215686276" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.32549019607843138" g="0.30980392156862746" b="0.29411764705882354" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tru dong M3 - 30mm" uid="Tru dong M3 - 30mm*:*Default" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tru dong M3 - 30mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00064454638452283183</Mass>
+<CenterOfMass>0 0.014999999999999998 0</CenterOfMass>
+<Inertia>4.520004198447222e-08 3.1429042512890457e-09 4.5200041984472226e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tru dong M3 - 30mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.9882352941176471" g="0.73725490196078436" b="0.51764705882352935" a="1"/>
+<Diffuse r="0.9882352941176471" g="0.73725490196078436" b="0.51764705882352935" a="1"/>
+<Specular r="0.49411764705882355" g="0.36862745098039218" b="0.25882352941176467" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tru dong M3 - 35mm" uid="Tru dong M3 - 35mm*:*Default" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tru dong M3 - 35mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00077553272684522734</Mass>
+<CenterOfMass>0 0.017500000000000002 0</CenterOfMass>
+<Inertia>7.2179850934488279e-08 3.6932288145185497e-09 7.2179850934488292e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tru dong M3 - 35mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.9882352941176471" g="0.73725490196078436" b="0.51764705882352935" a="1"/>
+<Diffuse r="0.9882352941176471" g="0.73725490196078436" b="0.51764705882352935" a="1"/>
+<Specular r="0.49411764705882355" g="0.36862745098039218" b="0.25882352941176467" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tru dong M3 - 40mm" uid="Tru dong M3 - 40mm*:*Default" version="124">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tru dong M3 - 40mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00090651906916762264</Mass>
+<CenterOfMass>0 0.019999999999999997 0</CenterOfMass>
+<Inertia>1.0885381897006969e-07 4.2435533777480554e-09 1.0885381897006969e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Tru dong M3 - 40mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.9882352941176471" g="0.73725490196078436" b="0.51764705882352935" a="1"/>
+<Diffuse r="0.9882352941176471" g="0.73725490196078436" b="0.51764705882352935" a="1"/>
+<Specular r="0.49411764705882355" g="0.36862745098039218" b="0.25882352941176467" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Vòng d?m phi 70  2mm" uid="Vòng d?m phi 70  2mm*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Vòng d?m phi 70  2mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0074425404388229754</Mass>
+<CenterOfMass>0 0 0.001</CenterOfMass>
+<Inertia>2.3284422418082751e-06 2.3284422418082738e-06 4.6519227899906676e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Vòng d?m phi 70  2mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Vòng d?m phi 70  5mm" uid="Vòng d?m phi 70  5mm*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Vòng d?m phi 70  5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018606351097057446</Mass>
+<CenterOfMass>0 0 0.0024999999999999996</CenterOfMass>
+<Inertia>5.8536667189405404e-06 5.8536667189405379e-06 1.1629806974976672e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Vòng d?m phi 70  5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bearing_51109_2_01.STEP" uid="bearing_51109_2_01.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bearing_51109_2_01.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0061079444846530362</Mass>
+<CenterOfMass>0 0.0019552046027450165 0</CenterOfMass>
+<Inertia>2.4704919580594199e-06 4.9253578879756521e-06 2.4704919580594204e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bearing_51109_2_01.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bearing_51109_2_02.STEP" uid="bearing_51109_2_02.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bearing_51109_2_02.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0067081926127053118</Mass>
+<CenterOfMass>0 0.012034240847023273 0</CenterOfMass>
+<Inertia>2.6310773398169054e-06 5.2447897924822984e-06 2.631077339816905e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bearing_51109_2_02.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bearing_51109_2_03.STEP" uid="bearing_51109_2_03.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bearing_51109_2_03.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0041999680376838076</Mass>
+<CenterOfMass>0 0.0069999999999999993 0</CenterOfMass>
+<Inertia>1.6095483961613903e-06 3.1976615433361326e-06 1.6095483961613909e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bearing_51109_2_03.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="d? p1" uid="d? p1*:*Default" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="d? p1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18673805057642362</Mass>
+<CenterOfMass>0.10545299356947173 0.017545526445872452 0.0025000000000000001</CenterOfMass>
+<Inertia>0.00035327179525443213 0.0011371676384015152 0.0014896613584452121 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="d? p1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="d? p2" uid="d? p2*:*Default" version="210">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="d? p2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1918585700701087</Mass>
+<CenterOfMass>0.10778803790846354 0.017545526445872452 0.0025000000000000001</CenterOfMass>
+<Inertia>0.00035376083646399985 0.0011795239522823056 0.00153248537803768 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="d? p2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="d? p3" uid="d? p3*:*Default" version="124">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="d? p3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20013470321690927</Mass>
+<CenterOfMass>0.10506436731300971 0.017545526445872449 0.0025000000000000005</CenterOfMass>
+<Inertia>0.00035396851032620417 0.0012308370483867538 0.0015839716641162208 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="d? p3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="d?m link2 2mm" uid="d?m link2 2mm*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="d?m link2 2mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0016026743338823082</Mass>
+<CenterOfMass>0 0 0.001</CenterOfMass>
+<Inertia>6.3080467596356824e-07 1.9068466157529188e-08 6.4880469256517597e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="d?m link2 2mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="d?m link2 5mm" uid="d?m link2 5mm*:*Default" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="d?m link2 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0040066858347057718</Mass>
+<CenterOfMass>0 0 0.0025000000000000005</CenterOfMass>
+<Inertia>1.5840233901196558e-06 5.4682865604558094e-08 1.6220117314129398e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="d?m link2 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="khung b?c d?n chà 5mm" uid="khung b?c d?n chà 5mm*:*Default" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="khung b?c d?n chà 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018725545212736609</Mass>
+<CenterOfMass>0.026889524633382803 0.023005655791728474 0.0025000000000000005</CenterOfMass>
+<Inertia>1.6305480785185251e-05 1.6305480785185258e-05 3.253293846531744e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="khung b?c d?n chà 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="khung b?c d?n phi47 2mm" uid="khung b?c d?n phi47 2mm*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="khung b?c d?n phi47 2mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010642162286478015</Mass>
+<CenterOfMass>0.026889524633382799 0.023005655791728471 0.001</CenterOfMass>
+<Inertia>7.7794643796570387e-06 7.7794643796570404e-06 1.5551833984456429e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="khung b?c d?n phi47 2mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="khung b?c d?n phi47 5mm" uid="khung b?c d?n phi47 5mm*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="khung b?c d?n phi47 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02660540571619505</Mass>
+<CenterOfMass>0.026889524633382796 0.023005655791728474 0.0025000000000000001</CenterOfMass>
+<Inertia>1.949522040914594e-05 1.9495220409145947e-05 3.8879584961141075e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="khung b?c d?n phi47 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="liên k?t d?-khâu 1 10mm" uid="liên k?t d?-khâu 1 10mm*:*Default" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="liên k?t d?-khâu 1 10mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11106874831474152</Mass>
+<CenterOfMass>7.7448787056847817e-05 0 0.0049999999999999992</CenterOfMass>
+<Inertia>0.00012961745618792178 0.00013314084356668923 0.00026090715394936536 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="liên k?t d?-khâu 1 10mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="liên k?t d?-khâu 1 5mm" uid="liên k?t d?-khâu 1 5mm*:*Default" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="liên k?t d?-khâu 1 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.061451098727225331</Mass>
+<CenterOfMass>0.00010550580619795952 0 0.0025000000000000005</CenterOfMass>
+<Inertia>6.6281225860833818e-05 6.6786151728304705e-05 0.00013281133134444175 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="liên k?t d?-khâu 1 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="liên k?t d?-khâu 1 d?u +" uid="liên k?t d?-khâu 1 d?u +*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="liên k?t d?-khâu 1 d?u +.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.059259688765970944</Mass>
+<CenterOfMass>0 0 0.0050000000000000001</CenterOfMass>
+<Inertia>4.9797929714462776e-05 3.2566312327531967e-05 8.1376580562561894e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="liên k?t d?-khâu 1 d?u +_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="m?t ch?n vòng bi phi 47 5mm" uid="m?t ch?n vòng bi phi 47 5mm*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="m?t ch?n vòng bi phi 47 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011500107784545492</Mass>
+<CenterOfMass>0 0 0.0025000000000000001</CenterOfMass>
+<Inertia>4.9382437644606474e-06 4.9382437644606465e-06 9.8285704131523536e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="m?t ch?n vòng bi phi 47 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tr?c base" uid="tr?c base*:*Default" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tr?c base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0050265482457436603</Mass>
+<CenterOfMass>0 0 0.049999999999999996</CenterOfMass>
+<Inertia>4.208896397769355e-06 4.208896397769355e-06 4.0212385965949203e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="tr?c base_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tr?c link 2" uid="tr?c link 2*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tr?c link 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0055292030703180351</Mass>
+<CenterOfMass>0 0 0.055</CenterOfMass>
+<Inertia>5.5973965748519589e-06 5.5973965748519589e-06 4.4233624562544283e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="tr?c link 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="tr?c link 3" uid="tr?c link 3*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="tr?c link 3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.004674689868541612</Mass>
+<CenterOfMass>0 0 0.046500000000000007</CenterOfMass>
+<Inertia>3.3879814822255339e-06 3.3879814822255339e-06 3.7397518948332887e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="tr?c link 3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng ch?n b?c d?n phi 45 5mm link3" uid="vòng ch?n b?c d?n phi 45 5mm link3*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng ch?n b?c d?n phi 45 5mm link3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0084980081279603971</Mass>
+<CenterOfMass>0 0 0.0025000000000000001</CenterOfMass>
+<Inertia>3.3408524218837799e-06 3.3408524218837782e-06 6.6462964765677235e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng ch?n b?c d?n phi 45 5mm link3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng ch?n b?c d?n phi 47 2mm link3" uid="vòng ch?n b?c d?n phi 47 2mm link3*:*Default" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng ch?n b?c d?n phi 47 2mm link3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0031101767270538946</Mass>
+<CenterOfMass>0 0 0.001</CenterOfMass>
+<Inertia>1.2538123769412588e-06 1.2538123769412586e-06 2.5055513027311482e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng ch?n b?c d?n phi 47 2mm link3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng ch?n b?c d?n phi 47 2mm" uid="vòng ch?n b?c d?n phi 47 2mm*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng ch?n b?c d?n phi 47 2mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0041712157166031915</Mass>
+<CenterOfMass>0 0 0.0009999999999999998</CenterOfMass>
+<Inertia>1.856011390278329e-06 1.8560113902783282e-06 3.7092419700789214e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng ch?n b?c d?n phi 47 2mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng ch?n b?c d?n phi 47 5mm link3" uid="vòng ch?n b?c d?n phi 47 5mm link3*:*Default" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng ch?n b?c d?n phi 47 5mm link3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0077754418176347378</Mass>
+<CenterOfMass>0 0 0.0025000000000000001</CenterOfMass>
+<Inertia>3.1481379655340051e-06 3.1481379655340051e-06 6.2638782568278656e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng ch?n b?c d?n phi 47 5mm link3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng ch?n vòng bi phi 47 3mm" uid="vòng ch?n vòng bi phi 47 3mm*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng ch?n vòng bi phi 47 3mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00053897948963149592</Mass>
+<CenterOfMass>0 0 0.0015000000000000002</CenterOfMass>
+<Inertia>1.415242238008952e-07 1.4152422380089467e-07 2.8223997836734262e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng ch?n vòng bi phi 47 3mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng d?m b?c d?n nh? 2mm" uid="vòng d?m b?c d?n nh? 2mm*:*Default" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng d?m b?c d?n nh? 2mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0017060536715043898</Mass>
+<CenterOfMass>0 0 0.001</CenterOfMass>
+<Inertia>1.3879908725228902e-07 1.3879908725228897e-07 2.7646080539024177e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng d?m b?c d?n nh? 2mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng d?m b?c d?n nh? 5mm" uid="vòng d?m b?c d?n nh? 5mm*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng d?m b?c d?n nh? 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0042651341787609733</Mass>
+<CenterOfMass>0 0 0.0025000000000000001</CenterOfMass>
+<Inertia>3.5446170294355425e-07 3.5446170294355414e-07 6.9115201347560438e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng d?m b?c d?n nh? 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng d?m b?c d?n phi 39 2mm" uid="vòng d?m b?c d?n phi 39 2mm*:*Default" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng d?m b?c d?n phi 39 2mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0021710093842356778</Mass>
+<CenterOfMass>0 0 0.0010000000000000002</CenterOfMass>
+<Inertia>2.1875209668737357e-07 2.1875209668737351e-07 4.3605685378525663e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng d?m b?c d?n phi 39 2mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng d?m b?c d?n phi 39 5mm" uid="vòng d?m b?c d?n phi 39 5mm*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng d?m b?c d?n phi 39 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0054275234605891945</Mass>
+<CenterOfMass>0 0 0.0025000000000000001</CenterOfMass>
+<Inertia>5.5637840777446478e-07 5.5637840777446467e-07 1.0901421344631414e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng d?m b?c d?n phi 39 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng d?m b?c d?n phi 47 2mm" uid="vòng d?m b?c d?n phi 47 2mm*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng d?m b?c d?n phi 47 2mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0029626907329403061</Mass>
+<CenterOfMass>0 0 0.001</CenterOfMass>
+<Inertia>3.9447236937693832e-07 3.9447236937693827e-07 7.8696961159858297e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng d?m b?c d?n phi 47 2mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng d?m b?c d?n phi 47 5mm" uid="vòng d?m b?c d?n phi 47 5mm*:*Default" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng d?m b?c d?n phi 47 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010428039291507981</Mass>
+<CenterOfMass>0 0 0.0024999999999999992</CenterOfMass>
+<Inertia>4.6582775444559627e-06 4.6582775444559593e-06 9.2731049251973055e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng d?m b?c d?n phi 47 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng d?m b?c d?n phi 50 5mm" uid="vòng d?m b?c d?n phi 50 5mm*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng d?m b?c d?n phi 50 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.031066846504698896</Mass>
+<CenterOfMass>0 0 0.0024999999999999996</CenterOfMass>
+<Inertia>1.6006741468292278e-05 1.6006741468292278e-05 3.1884037742814979e-05 0 0 -1.3805827090970757e-07</Inertia>
+</MassProperties>
+<GeometryFile name="vòng d?m b?c d?n phi 50 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng d?m tr?c d? 2mm" uid="vòng d?m tr?c d? 2mm*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng d?m tr?c d? 2mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00058746211825802346</Mass>
+<CenterOfMass>0 0 0.001</CenterOfMass>
+<Inertia>1.58373667685298e-08 1.5837366768529797e-08 3.1283092124887582e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng d?m tr?c d? 2mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vòng d?m tr?c d? 5mm" uid="vòng d?m tr?c d? 5mm*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vòng d?m tr?c d? 5mm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0014686552956450585</Mass>
+<CenterOfMass>0 0 0.0025000000000000001</CenterOfMass>
+<Inertia>4.2163563688703341e-08 4.2163563688703341e-08 7.8207730312218933e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vòng d?m tr?c d? 5mm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

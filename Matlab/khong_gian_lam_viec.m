@@ -1,22 +1,16 @@
 function plotWorkspace()
     % Các thông số của robot
-    H = 62;
-    D1 = 176;
+    H = 80;  
+    D1 = 176 ;
     L1 = 91;
     L2 = 122;
-    L3 = 77;
-    L4 = 78;
-
-    % Bước cho mỗi vòng lặp
-    step = 12;
-
+    L3 = 78;
+    L4 = 79;
+    
+    step = 12; % Bước cho mỗi vòng lặp
     % Tạo một màu gradient từ đỏ đến xanh lam
     colorMap = jet(256);
-
-    % Khởi tạo hình ảnh 3D
     figure;
-    
-    % Vẽ không gian làm việc của robot
     for t1 = -90:step:90
         for t2 = -90:step:90
             for t3 = -90:step:90
@@ -34,19 +28,6 @@ function plotWorkspace()
             end
         end
     end
-
-    % Vẽ hai điểm có tọa độ đã cho
-    %plot3(0, -368, 238, 'ro', 'MarkerSize', 10, 'MarkerFaceColor', 'r'); % Điểm (0, -368, 238)
-    %plot3(0, 222.692, 453.62, 'bo', 'MarkerSize', 10, 'MarkerFaceColor', 'b'); % Điểm (0, 222.692, 453.62)
-
-    % Đặt tên cho các điểm với chữ màu đen
-    %text(0, -368, 238, '  Point A', 'FontSize', 12, 'Color', 'k', 'HorizontalAlignment', 'left');
-    %text(0, 222.692, 453.62, '  Point B', 'FontSize', 12, 'Color', 'k', 'HorizontalAlignment', 'left');
-
-    % Thiết lập màu và thanh màu cho không gian làm việc
     colormap(colorMap);
     colorbar;
-
-    title('Không gian làm việc của Robot');
-    grid on;
 end

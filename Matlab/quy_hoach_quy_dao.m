@@ -1,12 +1,12 @@
 clc
 close all
 % Các thông số của robot
-H = 62;
-D1 = 176;
+H = 80;  
+D1 = 176 ;
 L1 = 91;
 L2 = 122;
-L3 = 77;
-L4 = 78;
+L3 = 78;
+L4 = 79;
 % Định nghĩa các thông số của quỹ đạo
 theta_0 = [-90, 30, 0, 0]; % Vị trí ban đầu của các joint
 theta_f = [90, 60, 30, 25]; % Vị trí cuối của các joint
@@ -27,7 +27,7 @@ for i = 1:4
     at(:, i) = 2 * a2(i) + 6 * a3(i) * t;
     % Động học thuận
     % Thêm mô hình động học của robot vào đây
-    %orques(:, i) = compute_forward_dynamics(H, D1, L1, L2, L3, L4, qt(:, i), vt(:, i), at(:, i), t);
+    % torques(:, i) = compute_forward_dynamics(H, D1, L1, L2, L3, L4, qt(:, i), vt(:, i), at(:, i), t);
 end
 % Vẽ đồ thị
 figure
