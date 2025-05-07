@@ -389,13 +389,11 @@ class Ui_Image_Processing(object):
                 self.number_running += 1
                 self.number_running_process = 0  
                     
-
             thetas = Inverse_Kinematics([posx, posy, posz, -90])
 
             string_send = f"[{posx:.2f},{posy:.2f},{posz}] ~ [{thetas[1][0]},{thetas[1][1]},{thetas[1][2]},{thetas[1][3]},1000,{grab}]"
 
             signal.Data_MP.emit(string_send)
-
 
     def Click_B_Pause_Run(self, data):
         self.run = not data
@@ -460,4 +458,3 @@ class Ui_Image_Processing(object):
         if self.receiv_Pos:
             self.Pos_nut = mm_coordinates
             self.receiv_Pos = False
-

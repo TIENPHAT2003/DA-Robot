@@ -35,7 +35,6 @@ class Home(QMainWindow):
 
         self.Kinematics = Ui_Kinematics()
         self.Kinematics.setupUi(self)
-        #self.Kinematics.F_Kinematics.hide()                          
 
         self.Image_Processing = Ui_Image_Processing()
         self.Image_Processing.setupUi(self)
@@ -80,7 +79,6 @@ class Home(QMainWindow):
         self.close()  # Đóng cửa sổ hiện tại
     
     def closeEvent(self, event):
-        #signal.close_Screen.emit()
         None
 
 class BackGround(QMainWindow):
