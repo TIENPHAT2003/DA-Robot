@@ -18,7 +18,7 @@ def on_mouse_click(event, x, y, flags, param):
             print("Tọa độ nằm ngoài vùng crop!")
 
 # Mở camera (0 là ID của camera mặc định, thay đổi nếu cần)
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("Không thể mở camera!")

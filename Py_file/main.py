@@ -111,8 +111,6 @@ class BackGround(QMainWindow):
         self.Home_windows.show()
         self.close()  # Đóng cửa sổ hiện tại
 
-
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     mainWindow = Home()

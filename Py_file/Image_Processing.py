@@ -272,7 +272,7 @@ class Ui_Image_Processing(object):
     def Number_Page(self,data):
         if data == 1:
             # Mở camera
-            self.cap = cv2.VideoCapture(1)  # `1` là camera phụ, thay đổi nếu cần
+            self.cap = cv2.VideoCapture(0)  # `1` là camera phụ, thay đổi nếu cần
             if not self.cap.isOpened():
                 message_box = QtWidgets.QMessageBox()
                 message_box.setWindowTitle("Camera is not open")
@@ -406,81 +406,58 @@ class Ui_Image_Processing(object):
     def Detect_Camera(self):
         ret, frame = self.cap.read()
         if not ret:
+            print("Không nhận được khung hình từ camera")
             return
 
-        # Crop khung hình theo tọa độ đã cho
         cropped_frame = frame[crop_y1:crop_y2, crop_x1:crop_x2]
+        hsv = cv2.cvtColor(cropped_frame, cv2.COLOR_BGR2HSV)
 
-        # Chuyển đổi khung hình từ camera sang grayscale
-        gray_frame = cv2.cvtColor(cropped_frame, cv2.COLOR_BGR2GRAY)
+        # Mask các màu
+        mask_blue = cv2.inRange(hsv, np.array([100, 100, 50]), np.array([130, 255, 255]))
+        mask_red1 = cv2.inRange(hsv, np.array([0, 100, 50]), np.array([10, 255, 255]))
+        mask_red2 = cv2.inRange(hsv, np.array([160, 100, 50]), np.array([180, 255, 255]))
+        mask_red = cv2.bitwise_or(mask_red1, mask_red2)
+        mask_green = cv2.inRange(hsv, np.array([40, 100, 50]), np.array([85, 255, 255]))
 
-        # Áp dụng template matching
-        result = cv2.matchTemplate(gray_frame, template, cv2.TM_CCOEFF_NORMED)
+        masks = {
+            'Blue': mask_blue,
+            'Red': mask_red,
+            'Green': mask_green
+        }
 
-        # Ngưỡng phát hiện
-        locations = np.where(result >= threshold)
-
-        boxes = []
-        scores = []
-        for pt in zip(*locations[::-1]):
-            top_left = pt
-            bottom_right = (top_left[0] + w, top_left[1] + h)
-            boxes.append([top_left[0], top_left[1], bottom_right[0], bottom_right[1]])
-            scores.append(result[pt[1], pt[0]])
-
-        selected_boxes = non_max_suppression(boxes, scores, 0.3)
         mm_coordinates = []
-        for i, box in enumerate(selected_boxes):
-            top_left = (box[0], box[1])
-            bottom_right = (box[2], box[3])
 
-            # Tính tọa độ tâm
-            center_x = (top_left[0] + bottom_right[0]) // 2
-            center_y = (top_left[1] + bottom_right[1]) // 2
+        for color_name, mask in masks.items():
+            contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            for cnt in contours:
+                area = cv2.contourArea(cnt)
+                if area > 500:
+                    x, y, w, h = cv2.boundingRect(cnt)
+                    center_x = x + w // 2
+                    center_y = y + h // 2
 
-            # Tính tọa độ từ gốc (origin) và chuyển sang mm
-            offset_x = center_x - origin_x
-            offset_y = center_y - origin_y
-            mm_x = offset_x * pixel_to_mm
-            mm_y = offset_y * pixel_to_mm
+                    offset_x = center_x - origin_x
+                    offset_y = center_y - origin_y
+                    mm_x = offset_x * pixel_to_mm
+                    mm_y = offset_y * pixel_to_mm
 
+                    mm_coordinates.append((str(round(mm_x, 2)), str(round(mm_y, 2)), color_name))
 
-            # Cắt vùng từ ảnh gốc
-            cropped = cropped_frame[top_left[1]:bottom_right[1], top_left[0]:bottom_right[0]]
+                    cv2.rectangle(cropped_frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+                    cv2.circle(cropped_frame, (center_x, center_y), 5, (0, 0, 255), -1)
+                    cv2.putText(cropped_frame, f"{color_name}, {mm_x:.1f}, {mm_y:.1f}",
+                                (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
-            # Chuyển đổi vùng cắt sang không gian màu HSV
-            hsv_cropped = cv2.cvtColor(cropped, cv2.COLOR_BGR2HSV)
-            average_hue = np.mean(hsv_cropped[:, :, 0])
-            average_saturation = np.mean(hsv_cropped[:, :, 1])
+        # Hiển thị camera
+        rgb_frame = cv2.cvtColor(cropped_frame, cv2.COLOR_BGR2RGB)
+        height, width, channels = rgb_frame.shape
+        bytes_per_line = channels * width
+        q_img = QtGui.QImage(rgb_frame.data, width, height, bytes_per_line, QtGui.QImage.Format_RGB888)
+        pixmap = QtGui.QPixmap.fromImage(q_img)
+        pixmap = pixmap.scaled(680, 500, QtCore.Qt.KeepAspectRatio)
+        self.Camera.setPixmap(pixmap)
 
-            if average_hue < 115 and average_saturation < 25:
-                color = 'Gray'
-            elif average_hue < 112 and average_saturation > 40:
-                color = 'Blue'
-            elif average_hue > 110 and average_saturation > 24 and average_saturation < 40:      
-                color = 'Red'
-            else:
-                color = 'Other'
-
-            # Hiển thị tâm và thông tin màu sắc trên khung hình
-            cv2.circle(cropped_frame, (center_x, center_y), 5, (0, 255, 0), -1)
-            cv2.putText(cropped_frame, f"{color}",
-                        (center_x + 10, center_y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2) 
-                      
-            # Lưu mm_x và mm_y vào danh sách
-            mm_coordinates.append((str(round(mm_x,2)), str(round(mm_y,2)), color))
-        # Hiển thị khung hình đã cắt
-        # Chuyển QImage thành QPixmap và hiển thị trên QLabel
-        # Chuyển đổi ảnh từ numpy array sang QImage
-            rgb_frame = cv2.cvtColor(cropped_frame, cv2.COLOR_BGR2RGB)
-
-            height, width, channels = rgb_frame.shape
-            bytes_per_line = channels * width
-            q_img = QtGui.QImage(rgb_frame.data, width, height, bytes_per_line, QtGui.QImage.Format_RGB888)
-            pixmap = QtGui.QPixmap.fromImage(q_img)
-            pixmap = pixmap.scaled(680, 500, QtCore.Qt.KeepAspectRatio)
-            self.Camera.setPixmap(pixmap)
         if self.receiv_Pos:
-            #Gán tọa độ 
             self.Pos_nut = mm_coordinates
             self.receiv_Pos = False
+
