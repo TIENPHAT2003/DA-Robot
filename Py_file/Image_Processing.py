@@ -30,13 +30,9 @@ style_on = """QPushButton{
 }"""
 # Tọa độ gốc
 origin_x, origin_y = 250, 45
-threshold = 0.6
 
 #region IP
 
-# Đọc ảnh template
-template = cv2.imread('picture/Nut.jpg', cv2.IMREAD_GRAYSCALE)
-h, w = template.shape[:2]  # Lấy kích thước template
 posx = np.zeros(20)
 posy = np.zeros(20)
 
@@ -80,7 +76,6 @@ def non_max_suppression(boxes, scores, overlapThresh):
         idxs = np.delete(idxs, np.concatenate(([last], np.where(overlap > overlapThresh)[0])))
 
     return selected_boxes
-
 
 #endregion
 
@@ -243,7 +238,6 @@ class Ui_Image_Processing(object):
         self.B_Detect.setText(_translate("Image_Processing", "DETECT"))
         self.B_C_Run.setText(_translate("Image_Processing", "RUN"))
 
-
 #======================================================
     def SetEvent(self):
         self.B_Detect.clicked.connect(self.Click_B_Detect)
@@ -293,7 +287,6 @@ class Ui_Image_Processing(object):
             self.timer.stop()
             self.open = False
             # Giải phóng tài nguyên
-
 
 #region UI
     def Click_B_Detect(self):
