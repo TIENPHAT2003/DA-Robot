@@ -29,7 +29,7 @@ style_on = """QPushButton{
     border-radius: 10px;
 }"""
 # Tọa độ gốc
-origin_x, origin_y = 250, 45
+origin_x, origin_y = 250, 150
 
 #region IP
 
@@ -365,7 +365,7 @@ class Ui_Image_Processing(object):
                     posz -= 3
                 self.number_running_process += 1
             elif self.number_running_process == 2:
-                if self.Pos_nut[self.number_running][2] == "Gray":
+                if self.Pos_nut[self.number_running][2] == "Green":
                     posx = 100
                     posy = -150
                 elif self.Pos_nut[self.number_running][2] == "Red":
@@ -373,9 +373,6 @@ class Ui_Image_Processing(object):
                     posy = -150
                 elif self.Pos_nut[self.number_running][2] == "Blue":
                     posx = 200
-                    posy = 150
-                else:
-                    posx = 100
                     posy = 150
                 posz = 50                
                 grab = "0"                
@@ -438,7 +435,14 @@ class Ui_Image_Processing(object):
                     cv2.circle(cropped_frame, (center_x, center_y), 5, (0, 0, 255), -1)
                     cv2.putText(cropped_frame, f"{color_name}, {mm_x:.1f}, {mm_y:.1f}",
                                 (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
+                    # Tính lại tọa độ gốc so với ảnh đã crop
+                    adjusted_origin_x = origin_x
+                    adjusted_origin_y = origin_y 
 
+                    # Vẽ điểm gốc và nhãn
+                    cv2.circle(cropped_frame, (adjusted_origin_x, adjusted_origin_y), 5, (255, 0, 0), -1)
+                    cv2.putText(cropped_frame, "Origin", (adjusted_origin_x + 5, adjusted_origin_y - 5),
+                                cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
         # Hiển thị camera
         rgb_frame = cv2.cvtColor(cropped_frame, cv2.COLOR_BGR2RGB)
         height, width, channels = rgb_frame.shape

@@ -72,7 +72,14 @@ while True:
                 cv2.circle(cropped_frame, (center_x, center_y), 5, (0, 0, 255), -1)
                 cv2.putText(cropped_frame, f"{color_name}, {mm_x:.1f}, {mm_y:.1f}",
                             (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
+                # Tính lại tọa độ gốc so với ảnh đã crop
+                adjusted_origin_x = origin_x
+                adjusted_origin_y = origin_y 
 
+                # Vẽ điểm gốc và nhãn
+                cv2.circle(cropped_frame, (adjusted_origin_x, adjusted_origin_y), 5, (255, 0, 0), -1)
+                cv2.putText(cropped_frame, "Origin", (adjusted_origin_x + 5, adjusted_origin_y - 5),
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
     # Hiển thị kết quả
     cv2.imshow('Color Detection with Coordinates', cropped_frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
