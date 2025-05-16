@@ -351,9 +351,6 @@ class Ui_Header(object):
         self.Thetas = [0, 0, 0, 0]
 
     def Click_B_Home(self):
-        # data_send = "t1:-15,t2:0,t3:0,t4:0\n"
-        # self.ser.write(data_send.encode('utf-8'))
-        # time.sleep(3)
         self.ser.write("home\n".encode('utf-8'))
         signal.click_B_Home.emit()
         self.Thetas = [0, 0, 0, 0]
