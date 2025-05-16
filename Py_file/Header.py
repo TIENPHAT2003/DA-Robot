@@ -308,11 +308,11 @@ class Ui_Header(object):
         ]
         for baud_rate in baud_rates:
             self.CB_Baud_rate.addItem(baud_rate)
-        self.CB_Baud_rate.setCurrentText("9600")
+        self.CB_Baud_rate.setCurrentText("115200")
         self.CB_Baud_rate.currentTextChanged.connect(self.Changed_Baud_rate)
 
 
-        self.ser.baudrate = 9600
+        self.ser.baudrate = 115200
         self.ser.timeout = 1
 
         self.B_Power.clicked.connect(self.Click_B_Power)
