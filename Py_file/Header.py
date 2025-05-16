@@ -15,7 +15,6 @@ import serial.tools.list_ports
 import time
 import math
 
-
 class Ui_Header(object):
 
 #region UI
@@ -311,7 +310,6 @@ class Ui_Header(object):
         self.CB_Baud_rate.setCurrentText("115200")
         self.CB_Baud_rate.currentTextChanged.connect(self.Changed_Baud_rate)
 
-
         self.ser.baudrate = 115200
         self.ser.timeout = 1
 
@@ -517,9 +515,6 @@ class Ui_Header(object):
 
         except:
             pass
-
-
-            
 #endregion
 
 #region MP
@@ -547,8 +542,6 @@ class Ui_Header(object):
         # data_send = f"t1:{theta[0]},t2:{theta[1]},t3:{theta[2]},t4:{theta[3]}\n"
         self.run = True
         self.ser.write(data_send.encode('utf-8'))
-        
-
 #endregion
 
 class UpdateThread(QtCore.QThread):

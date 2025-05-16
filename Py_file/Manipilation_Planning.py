@@ -17,7 +17,6 @@ max =[60,90,90,90]
 min_pos = [100,-150, -10]
 max_pos = [350, 150, 300]
 
-
 class Ui_Manipilation_Planning(object):
     def setupUi(self, Manipilation_Planning):
         self.F_Manipilation_Planning = QtWidgets.QFrame(Manipilation_Planning)
@@ -626,9 +625,6 @@ class Ui_Manipilation_Planning(object):
         self.CB_Drag_Drop.setObjectName("CB_Drag_Drop")
         self.CB_Drag_Drop.addItem("")
         self.CB_Drag_Drop.addItem("")
-
-
-
         self.SetEvent()
         self.retranslateUi(Manipilation_Planning)
         QtCore.QMetaObject.connectSlotsByName(Manipilation_Planning)
@@ -705,7 +701,6 @@ class Ui_Manipilation_Planning(object):
         self.I_Theta2_2.setText(str(self.thetas[1][1]))
         self.I_Theta3_2.setText(str(self.thetas[1][2]))
         self.I_Theta4_2.setText(str(self.thetas[1][3]))
-
         self.non_click = False
 
     def Click_B_Switch(self, data):
@@ -721,7 +716,6 @@ class Ui_Manipilation_Planning(object):
             self.Click_B_Calculate()
             self.non_click = True
             
-
         try:
             if self.thetas[Set][0] < min[0] or self.thetas[Set][0] > max[0]\
             or self.thetas[Set][1] < min[1] or self.thetas[Set][1] > max[1]\
@@ -793,5 +787,3 @@ class Ui_Manipilation_Planning(object):
         self.run = not data
         if self.run:
             self.Run_MP()
-    
-

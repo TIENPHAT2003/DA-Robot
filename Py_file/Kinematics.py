@@ -935,7 +935,6 @@ class Ui_Kinematics(object):
         self.LE_FK_Theta.setText(str(value))
         self.I_FK_Theta4.setText(str(self.S_FK[2].value() - self.S_FK[1].value() - self.S_FK[0].value()))
 
-
 #endregion
 
 #region IK

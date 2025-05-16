@@ -8,10 +8,6 @@ from Image_Processing import Ui_Image_Processing
 from Manipilation_Planning import Ui_Manipilation_Planning
 from Storage_Signal import signal
 
-#data = Event()
-""" Lưu trữ Signal và Slots của các sự kiện trong Home 
-"""
-
 class Home(QMainWindow):
     def __init__(self):
         super().__init__()
