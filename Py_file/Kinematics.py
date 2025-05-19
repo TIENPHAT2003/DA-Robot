@@ -12,7 +12,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from Storage_Signal import signal
 from Recipe_Kinematics import Inverse_Kinematics
 
-min = [-60,-30,-150,-90]
+min = [-60,-45,-150,-90]
 max =[60,90,90,90]
 min_pos = [100,-150, -10]
 max_pos = [350, 150, 300]
