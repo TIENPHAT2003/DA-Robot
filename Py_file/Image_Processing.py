@@ -29,15 +29,15 @@ style_on = """QPushButton{
     border-radius: 10px;
 }"""
 # Tọa độ gốc
-origin_x, origin_y = 250, 150
+origin_x, origin_y = 250, 120
 
 #region IP
 
 posx = np.zeros(20)
 posy = np.zeros(20)
 
-# Tỷ lệ pixel sang mm (12 pixel = 10mm)
-pixel_to_mm = 10 / 12 # 0.8333 mm per pixel
+# Tỷ lệ pixel sang mm 
+pixel_to_mm = 20 / 40
 
 # Các tọa độ để crop
 crop_x1, crop_y1 = 99, 93
@@ -299,7 +299,7 @@ class Ui_Image_Processing(object):
         # Tạo chuỗi format theo yêu cầu
         for item in self.Pos_nut:
             item = QtWidgets.QListWidgetItem\
-                (f"Value: [Px:{float(item[1])+150:.3f}, Py:{item[0]}, color:{item[2]}]")
+                (f"Value: [Px:{float(item[1]) + 180:.3f}, Py:{item[0]}, color:{item[2]}]")
             font = QtGui.QFont("Times New Roman", 12, QtGui.QFont.Bold)  # Đặt font: Arial, cỡ 16, in đậm
             item.setFont(font)  # Áp dụng font cho item
             # Thêm vào View
