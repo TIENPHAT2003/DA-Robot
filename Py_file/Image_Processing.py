@@ -37,7 +37,7 @@ posx = np.zeros(20)
 posy = np.zeros(20)
 
 # Tỷ lệ pixel sang mm (12 pixel = 10mm)
-pixel_to_mm = 10 / 12  # 0.8333 mm per pixel
+pixel_to_mm = 10 / 12 # 0.8333 mm per pixel
 
 # Các tọa độ để crop
 crop_x1, crop_y1 = 99, 93
@@ -350,13 +350,13 @@ class Ui_Image_Processing(object):
                 return
             #Xử lý chuỗi
             if self.number_running_process == 0:
-                posx = float(self.Pos_nut[self.number_running][1]) + 240
+                posx = float(self.Pos_nut[self.number_running][1]) + 180
                 posy =  float(self.Pos_nut[self.number_running][0])
                 posz = 60
                 grab = "1"
                 self.number_running_process += 1
             elif self.number_running_process == 1:
-                posx = float(self.Pos_nut[self.number_running][1]) + 240
+                posx = float(self.Pos_nut[self.number_running][1]) + 180
                 posy =  float(self.Pos_nut[self.number_running][0]) + compesant
                 posz = 0
                 grab = "1"
