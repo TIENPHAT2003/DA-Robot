@@ -352,17 +352,17 @@ class Ui_Image_Processing(object):
             if self.number_running_process == 0:
                 posx = float(self.Pos_nut[self.number_running][1]) + 180
                 posy =  float(self.Pos_nut[self.number_running][0])
-                posz = 60
+                posz = 30
                 grab = "1"
                 self.number_running_process += 1
             elif self.number_running_process == 1:
                 posx = float(self.Pos_nut[self.number_running][1]) + 180
                 posy =  float(self.Pos_nut[self.number_running][0]) + compesant
-                posz = 0
+                posz = -25
                 grab = "1"
                 if posy < -30:
                     posy += 10
-                    posz -= 3.
+                    posz -= 3
                 self.number_running_process += 1
             elif self.number_running_process == 2:
                 if self.Pos_nut[self.number_running][2] == "Green":
